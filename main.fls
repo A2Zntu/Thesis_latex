@@ -1,12 +1,14 @@
-PWD C:\Users\Evan\Desktop\論文\Latexpaper\IVS_Intraday
+PWD C:\Users\Evan\Documents\GitHub\Thesis_latex
 INPUT C:\Users\Evan\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
 INPUT main.tex
 OUTPUT main.log
 INPUT C:\MiKTeX 2.9\tex\latex\base\article.cls
 INPUT C:\MiKTeX 2.9\tex\latex\base\article.cls
-INPUT C:\MiKTeX 2.9\tex\latex\base\size11.clo
-INPUT C:\MiKTeX 2.9\tex\latex\base\size11.clo
-INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\MiKTeX 2.9\tex\latex\base\size12.clo
+INPUT C:\MiKTeX 2.9\tex\latex\base\size12.clo
+INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\MiKTeX 2.9\tex\latex\setspace\setspace.sty
+INPUT C:\MiKTeX 2.9\tex\latex\setspace\setspace.sty
 INPUT C:\MiKTeX 2.9\tex\latex\base\inputenc.sty
 INPUT C:\MiKTeX 2.9\tex\latex\base\inputenc.sty
 INPUT C:\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
@@ -85,8 +87,8 @@ INPUT C:\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def
 INPUT C:\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def
 INPUT C:\MiKTeX 2.9\tex\latex\biblatex\biblatex.def
 INPUT C:\MiKTeX 2.9\tex\latex\biblatex\biblatex.def
-INPUT C:\MiKTeX 2.9\tex\latex\biblatex\bbx\authortitle.bbx
-INPUT C:\MiKTeX 2.9\tex\latex\biblatex\bbx\authortitle.bbx
+INPUT C:\MiKTeX 2.9\tex\latex\biblatex\bbx\authoryear.bbx
+INPUT C:\MiKTeX 2.9\tex\latex\biblatex\bbx\authoryear.bbx
 INPUT C:\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx
 INPUT C:\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx
 INPUT C:\MiKTeX 2.9\tex\latex\biblatex\cbx\authoryear.cbx
@@ -114,6 +116,18 @@ INPUT main.bbl
 INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
+INPUT chapters\abstract.tex
+INPUT chapters\abstract.tex
+INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
+INPUT chapters\introduction.tex
+INPUT chapters\introduction.tex
 INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
@@ -125,34 +139,23 @@ INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
-INPUT chapters\abstract.tex
-INPUT chapters\abstract.tex
-INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
-INPUT chapters\introduction.tex
-INPUT chapters\introduction.tex
-INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
-INPUT chapters\data.tex
-INPUT chapters\data.tex
-INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 OUTPUT main.pdf
 INPUT C:\Users\Evan\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
-INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmr9.tfm
-INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmmi9.tfm
-INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmsy9.tfm
-INPUT C:\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
-INPUT C:\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT chapters\hypothesis.tex
+INPUT chapters\hypothesis.tex
+INPUT chapters\data.tex
+INPUT chapters\data.tex
+INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
 INPUT images\network1.png
 INPUT .\images\network1.png
 INPUT .\images\network1.png
 INPUT .\images\network1.png
 INPUT .\images\network1.png
-INPUT C:\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\MiKTeX 2.9\fonts\tfm\public\cm\cmti12.tfm
 INPUT main.aux
 INPUT main.run.xml
 OUTPUT main.run.xml
@@ -162,8 +165,8 @@ INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi6.pfb
 INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi6.pfb
 INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi8.pfb
@@ -172,15 +175,13 @@ INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr6.pfb
-INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr9.pfb
-INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr9.pfb
 INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy8.pfb
-INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti12.pfb

@@ -1,5 +1,6 @@
 
-\documentclass[oneside,11pt]{article}
+\documentclass[oneside,12pt]{article}
+\usepackage[doublespacing]{setspace}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \graphicspath{{images/}}
@@ -15,15 +16,17 @@
 \usepackage{caption}
 \usepackage{indentfirst}
 \usepackage{subcaption}
+
+
 \usepackage{amsmath}
-\usepackage[citestyle = authoryear, bibstyle = authortitle, sorting=nty]{biblatex}
+\usepackage[backend=biber, citestyle = authoryear, bibstyle = authoryear, sorting=nty]{biblatex}
 \addbibresource{ref.bib}
 
 \Huge
 \title{\textbf{The Intraday Option Information and Stock Return Predictability}}
 
 \author{I FAN CHIANG}
-\date{11 April 2019}
+\date{27 April 2019}
 
 
 
@@ -43,7 +46,11 @@
 
 
 
-\section{Empirical Methodology}
+\section{Hypothesis Development}
+\input{chapters/hypothesis}
+
+
+\section{Data and Empirical Methodology}
 \input{chapters/data}
 
 

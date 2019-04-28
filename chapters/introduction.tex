@@ -1,13 +1,14 @@
 
-Probabilistic inference has become a core technology in AI,
-largely due to developments in graph-theoretic methods for the 
-representation and manipulation of complex probability 
-distributions.  Whether in their guise as 
-directed graphs (Bayesian networks) or as undirected graphs (Markov 
-random fields), \emph{probabilistic graphical models} have a number 
-of virtues as representations of uncertainty and as inference engines.  
-Graphical models allow a separation between qualitative, structural
-aspects of uncertain knowledge and the quantitative, parametric aspects 
-of uncertainty...
 
 
+
+It has been a fierce debate that the trading information from derivative markets lead the underlying markets. Prior studies hold different arguments toward this topic. Relevant papers, like \textcite{manaster1982option}, \textcite{anthony1988interrelation}, \textcite{chakravarty2004informed}, 
+\textcite{cremers2010deviations}, 
+\textcite{xing2010does} have found that the information from option market take the lead of the information from stock market. 
+When informed traders recieved private information, they prefer to trade in option market since there are several advatanges compare with the other one, like fewer limitation in trading, no short-sell constraint and high leverage properties\footcite{black1975fact, fleming1996trading}. While, other studies like 
+\textcite{chan1993option}, 
+\textcite{stephan1990intraday} find no evidence that option prices can be ahead of stock prices. 
+
+Based on the call and put implied volatilty spread(CPIV) propsed by \textcite{cremers2010deviations}, we refine this approach and derive an intraday version which tells the predictability power toward future index returns within a single trading day. Within a single day, we would like to see whether the predictability power is stronger in open period, middle period or close period. Therefore, we partition a single day to 14 intervals, and each intervals we only include 5 minutes long in case the Put-Call parity would be unbalanced due to major difference between the underlying price(S) in call and put options. 
+
+The remainder of paper is organized as follows. In Section 2 we describe our research hypothesis, In Section 3, we describe our methedology and data. Section 4 presents the main empirical results on quote data on predicting index returns. Section 5 provides the results are robust to trade data given the identical sample period. Section 6 concludes. 

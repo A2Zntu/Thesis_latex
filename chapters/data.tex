@@ -1,10 +1,10 @@
 
 \subsection{Deviation From Put-Call Parity}
-The put-call parity relations derived from \cite{stoll1969relationship} is a classical options pricing concepts in finance. It characterized the relationship that must exist between European put and call options with the identical underlying asset, expiration and strike prices. The equation must hold for European options on no-dividends paying underlying in a perfect market. 
+The put-call parity relations derived from \textcite{stoll1969relationship} is a classical options pricing concepts in finance. It characterized the relationship that must exist between European put and call options with the identical underlying asset, expiration and strike prices. The equation must hold for European options on no-dividends paying underlying in a perfect market. 
 \begin{equation}
 C-P = S - PV(K)
 \end{equation}
-Where C and P represent call prices and put prices, and S is Stock price. With same maturity and exercise price K, the arbitrage opportunity would exist if the equation is not hold. The \cite{black1973pricing} formula satisfies the put-call parity for any assumed value of the volatility parameter $\sigma$, therefore, 
+Where C and P represent call prices and put prices, and S is Stock price. With same maturity and exercise price K, the arbitrage opportunity would exist if the equation is not hold. The \textcite{black1973pricing} formula satisfies the put-call parity for any assumed value of the volatility parameter $\sigma$, therefore, 
 \begin{equation}
 C^{BS}(\sigma ) + PV(K) = P^{BS}(\sigma ) + S
 \end{equation}
@@ -21,14 +21,14 @@ IV^{call} = IV^{put}
 Of course the equation may not be hold once the option is American-style. However, our primary studies on SPX option is European style. Therefore, we do not need to consider the dividend payment or early exercise case in our further research. 
 \\
 
-Clearly, the larger implied volatilities are the higher the call or put option prices claim. Following \cite{amin2004index}, we refer to the difference between call and put implied volatilities as the call-put implied volatility spread(CPIV). It is suggested that a positive(negative) CPIV could be viewed as a bullish(bearish) signal regarding the underlying stock. 
+Clearly, the larger implied volatilities are the higher the call or put option prices claim. Following \textcite{amin2004index}, we refer to the difference between call and put implied volatilities as the call-put implied volatility spread(CPIV). It is suggested that a positive(negative) CPIV could be viewed as a bullish(bearish) signal regarding the underlying stock. 
 \\ 
 
 The aggregate Intraday CPIV are construced as following steps: 
 \begin{enumerate}
-\item  We first divided a single day into 14 of 5-minutes interval. Each interval contains the tick data from 2.5 minutes ahead and behind. For example, the 9 a.m. invertal, we collect valid data from 08:47:30 to 09:32:30 to represent this interval. As for open(close) interval, we choose to accumulate the full 5 minutes data behind(ahead)\footnote{We collect the whole transaction data in 5 minutes for trade data. However, the size of quote data is extremely unbalanced in different interval, we restricted 1000 to 2000 quotes as maximum for call and put in collecting quote data.}
+\item  We first divided a single day into 14 of 5-minutes interval. Each interval contains the tick data from 2.5 minutes ahead and behind. For example, the 9 a.m. invertal, we collect valid data from 08:47:30 to 09:32:30 to represent this interval. As for open(close) interval, we choose to accumulate the full 5 minutes data behind(ahead)\footnote{We collect the whole transaction data in 5 minutes for trade data. However, the size of quote data is extremely unbalanced in different intervals, we restricted 1000 to 2000 quotes as maximum for call and put in collecting quote data.}
 
-\item Similar to \cite{xing2010does}, in each interval, we eliminate an option from the sample if its time to expiration is less than 10 days or more than a year, if its open interest is negative, if its moneyness\footnote{Moneyness is defined as the ratio of the strike price to the stock price.} is smaller than 0.9 or more than 1.1.Furthermore, the option quotes must not violate basic no-arbitrage relations.
+\item Similar to \textcite{xing2010does}, in each interval, we eliminate an option from the sample if its time to expiration is less than 10 days or more than a year, if its open interest is negative, if its moneyness\footnote{Moneyness is defined as the ratio of the strike price to the stock price.} is smaller than 0.9 or more than 1.1. Furthermore, the option quotes must not violate basic no-arbitrage relations.
 
 \item Then, in each time interval, there must be several valid option pairs with identical maturity(T) and exercise price(K). For each option pair we choose only one pair to be the representitive. For quote data, we choose the mean of best bid($\beta ^{\ast }$) best offer($\alpha ^{\ast }$) as the chosen call and put price. For trade data, we capture the transaction that is closet to the centering time.  
 
@@ -48,12 +48,11 @@ In our study, the amount of intraday CPIV should be $38668 (14 Intervals * 2762 
 
 
 
-
 \subsection{Data}
-In our analysis, the primary quote and trade intraday data for SPX option originates from CBOE MDR. The sample period studied is from January 2007 to December 2017. The option data includes trade date, trade time, expiration date, put-call code, exercise price, maturities, bid price, ask price, underlying price. The size of the sample data is about 1-TB around and the amount is about 1 billion. After we exclude the tick data fall outside the 5-minutes intervals, it remains about 40 million. Furthermore, we follow the approach from \cite{ofek2004limited} to exclude the invalid option pairs. Finally, we have 1,692,542 valid volatility spreads for SPX option from January 2007 to December 2017. 
+In our analysis, the primary quote and trade intraday data for SPX option originates from CBOE MDR. The sample period studied is from January 2007 to December 2017. The option data includes trade date, trade time, expiration date, put-call code, exercise price, maturities, bid price, ask price, underlying price. The size of the sample data is about 1-TB around and the amount is about 1 billion. After we exclude the tick data fall outside the 5-minutes intervals, it remains about 40 million. Furthermore, we follow the approach from \textcite{ofek2004limited} to exclude the invalid option pairs. Finally, we have 1,692,542 valid volatility spreads for SPX option from January 2007 to December 2017. 
 \\
 
-Following the prior studies\parencite{bollerslev2009expected}, several macroeconomic variable are suggested to be crucial and informative with regard to future returns. Specifically, we collect data of the default spread(between Moody's BAA and AAA corporate bond spreads), the term spread(between the 10-year T-Bond and 3-month T-bill yields) \footnote{The daily data are collected from the public website of the Federal Reserve Bank of St. Louis.} as control variables in our regression analysis. 
+Following the prior studies\textcite{bollerslev2009expected}, several macroeconomic variable are suggested to be crucial and informative with regard to future returns. Specifically, we collect data of the default spread(between Moody's BAA and AAA corporate bond spreads), the term spread(between the 10-year T-Bond and 3-month T-bill yields) \footnote{The daily data are collected from the public website of the Federal Reserve Bank of St. Louis.} as control variables in our regression analysis. 
 The daily price of S\& P 500 index is obtained from Bloomberg. The zero-coupon bond (ZCB) rate represent risk-free rate in B-S formula are collected from WRDS with different duration. 
 \\
 
@@ -72,7 +71,7 @@ Table 1 contains descriptive statistics on the volatility spread.
 
 
 \subsection{Variable Definitions}
-All measures using implied volatility are calculated using all options with 90 or fewer days to expiration. Following \cite{cremers2010deviations}, CPIV is the open interest-weighted call implied volatility less open interest weighted put implied volatility. CPIV STD is the standard deviation of CPIV over the past 20 days. IV is the open interest-weighted implied volatility. ME is stock price multiplied by the number of shares outstanding at the end of the measurement period and is reported in billions. Return is the daily, weekly, or monthly return on the day, week, or month, respectively, following CPIV measurement. Reversal is return in the calendar month prior to CPIV measurement. Momentum is the cumulative return in calendar months in brackets relative to the date of CPIV measurement. Turnover is monthly 
+All measures using implied volatility are calculated using all options with 90 or fewer days to expiration. Following \textcite{cremers2010deviations}, CPIV is the open interest-weighted call implied volatility less open interest weighted put implied volatility. CPIV STD is the standard deviation of CPIV over the past 20 days. IV is the open interest-weighted implied volatility. ME is stock price multiplied by the number of shares outstanding at the end of the measurement period and is reported in billions. Return is the daily, weekly, or monthly return on the day, week, or month, respectively, following CPIV measurement. Reversal is return in the calendar month prior to CPIV measurement. Momentum is the cumulative return in calendar months in brackets relative to the date of CPIV measurement. Turnover is monthly 
 volume divided by the number of shares outstanding over calendar months prior to CPIV measurement with months designated in brackets. Illiquidity is the illiquidity measure of Amihud (2002), the absolute value of the return divided by the dollar trading volume averaged over calendar days prior to CPIV measurement, with days designated in brackets.
 
 \subsection{Descriptive Statistics}\label{sec:reganalysis}

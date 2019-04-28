@@ -1,0 +1,581 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{amin2004index}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=38f5d1fa246bd0becb0d72ea175b1fdd}{%
+           family={Amin},
+           familyi={A\bibinitperiod},
+           given={Kaushik},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=22d07d336782d778525b6e1cbc3ae71d}{%
+           family={Coval},
+           familyi={C\bibinitperiod},
+           given={Joshua\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=eb072e8d10ac93faec76a7c793297a02}{%
+           family={Seyhun},
+           familyi={S\bibinitperiod},
+           given={H\bibnamedelima Nejat},
+           giveni={H\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{30ffe817e7578d12649f7a4633f01c40}
+      \strng{fullhash}{30ffe817e7578d12649f7a4633f01c40}
+      \strng{bibnamehash}{30ffe817e7578d12649f7a4633f01c40}
+      \strng{authorbibnamehash}{30ffe817e7578d12649f7a4633f01c40}
+      \strng{authornamehash}{30ffe817e7578d12649f7a4633f01c40}
+      \strng{authorfullhash}{30ffe817e7578d12649f7a4633f01c40}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Business}
+      \field{number}{4}
+      \field{title}{Index option prices and stock market momentum}
+      \field{volume}{77}
+      \field{year}{2004}
+      \field{pages}{835\bibrangedash 874}
+      \range{pages}{40}
+    \endentry
+    \entry{anthony1988interrelation}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d5e881ed3542430e845e71a371497b6e}{%
+           family={Anthony},
+           familyi={A\bibinitperiod},
+           given={Joseph\bibnamedelima H},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{d5e881ed3542430e845e71a371497b6e}
+      \strng{fullhash}{d5e881ed3542430e845e71a371497b6e}
+      \strng{bibnamehash}{d5e881ed3542430e845e71a371497b6e}
+      \strng{authorbibnamehash}{d5e881ed3542430e845e71a371497b6e}
+      \strng{authornamehash}{d5e881ed3542430e845e71a371497b6e}
+      \strng{authorfullhash}{d5e881ed3542430e845e71a371497b6e}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{4}
+      \field{title}{The interrelation of stock and options market trading-volume data}
+      \field{volume}{43}
+      \field{year}{1988}
+      \field{pages}{949\bibrangedash 964}
+      \range{pages}{16}
+    \endentry
+    \entry{black1975fact}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=93277dfc1ebe8d44428e74799781e4d7}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={Fischer},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{93277dfc1ebe8d44428e74799781e4d7}
+      \strng{fullhash}{93277dfc1ebe8d44428e74799781e4d7}
+      \strng{bibnamehash}{93277dfc1ebe8d44428e74799781e4d7}
+      \strng{authorbibnamehash}{93277dfc1ebe8d44428e74799781e4d7}
+      \strng{authornamehash}{93277dfc1ebe8d44428e74799781e4d7}
+      \strng{authorfullhash}{93277dfc1ebe8d44428e74799781e4d7}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Financial Analysts Journal}
+      \field{number}{4}
+      \field{title}{Fact and fantasy in the use of options}
+      \field{volume}{31}
+      \field{year}{1975}
+      \field{pages}{36\bibrangedash 41}
+      \range{pages}{6}
+    \endentry
+    \entry{black1973pricing}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=93277dfc1ebe8d44428e74799781e4d7}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={Fischer},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=301bb16d9f303a488dac1c73931c0eff}{%
+           family={Scholes},
+           familyi={S\bibinitperiod},
+           given={Myron},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{fullhash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{bibnamehash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{authorbibnamehash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{authornamehash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{authorfullhash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of political economy}
+      \field{number}{3}
+      \field{title}{The pricing of options and corporate liabilities}
+      \field{volume}{81}
+      \field{year}{1973}
+      \field{pages}{637\bibrangedash 654}
+      \range{pages}{18}
+    \endentry
+    \entry{bollerslev2009expected}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=39f8f5a428abd62057a0152546172106}{%
+           family={Bollerslev},
+           familyi={B\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c2837df63f1b22ad96840c3c9f06e05a}{%
+           family={Tauchen},
+           familyi={T\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bf8821420565328b3085cef67e44b2af}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{b0b1969d4bc0374df570b7c493e8d75c}
+      \strng{fullhash}{b0b1969d4bc0374df570b7c493e8d75c}
+      \strng{bibnamehash}{b0b1969d4bc0374df570b7c493e8d75c}
+      \strng{authorbibnamehash}{b0b1969d4bc0374df570b7c493e8d75c}
+      \strng{authornamehash}{b0b1969d4bc0374df570b7c493e8d75c}
+      \strng{authorfullhash}{b0b1969d4bc0374df570b7c493e8d75c}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Financial Studies}
+      \field{number}{11}
+      \field{title}{Expected stock returns and variance risk premia}
+      \field{volume}{22}
+      \field{year}{2009}
+      \field{pages}{4463\bibrangedash 4492}
+      \range{pages}{30}
+    \endentry
+    \entry{chakravarty2004informed}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=76ae7e8d0431eed10944d321e2aca4cd}{%
+           family={Chakravarty},
+           familyi={C\bibinitperiod},
+           given={Sugato},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=78ad6a9786e0a3db4cc0faf4f31b624d}{%
+           family={Gulen},
+           familyi={G\bibinitperiod},
+           given={Huseyin},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3afd31c613a1c37d9a5e8c9327d994f7}{%
+           family={Mayhew},
+           familyi={M\bibinitperiod},
+           given={Stewart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{d26f6c42452d566c7b964346fc8f8454}
+      \strng{fullhash}{d26f6c42452d566c7b964346fc8f8454}
+      \strng{bibnamehash}{d26f6c42452d566c7b964346fc8f8454}
+      \strng{authorbibnamehash}{d26f6c42452d566c7b964346fc8f8454}
+      \strng{authornamehash}{d26f6c42452d566c7b964346fc8f8454}
+      \strng{authorfullhash}{d26f6c42452d566c7b964346fc8f8454}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{3}
+      \field{title}{Informed trading in stock and option markets}
+      \field{volume}{59}
+      \field{year}{2004}
+      \field{pages}{1235\bibrangedash 1257}
+      \range{pages}{23}
+    \endentry
+    \entry{chan1993option}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=07cf5039f5d4386c9375a9246908a352}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Kalok},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1583881809bc4d302cf910ba3418f9a2}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Y\bibnamedelima Peter},
+           giveni={Y\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b46baaa996ee92373c1dcd8bb803d330}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Herb},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{b675f7620668fe96acc89d1e32d00c7b}
+      \strng{fullhash}{b675f7620668fe96acc89d1e32d00c7b}
+      \strng{bibnamehash}{b675f7620668fe96acc89d1e32d00c7b}
+      \strng{authorbibnamehash}{b675f7620668fe96acc89d1e32d00c7b}
+      \strng{authornamehash}{b675f7620668fe96acc89d1e32d00c7b}
+      \strng{authorfullhash}{b675f7620668fe96acc89d1e32d00c7b}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{5}
+      \field{title}{Why option prices lag stock prices: A trading-based explanation}
+      \field{volume}{48}
+      \field{year}{1993}
+      \field{pages}{1957\bibrangedash 1967}
+      \range{pages}{11}
+    \endentry
+    \entry{cremers2010deviations}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=4f8dd330382d95024562781a0f2b6644}{%
+           family={Cremers},
+           familyi={C\bibinitperiod},
+           given={Martijn},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5481c9dc7a5aaeecf5f0eb88e8e970a8}{%
+           family={Weinbaum},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{6b03f1dd19881c7c54d2e1904bae4085}
+      \strng{fullhash}{6b03f1dd19881c7c54d2e1904bae4085}
+      \strng{bibnamehash}{6b03f1dd19881c7c54d2e1904bae4085}
+      \strng{authorbibnamehash}{6b03f1dd19881c7c54d2e1904bae4085}
+      \strng{authornamehash}{6b03f1dd19881c7c54d2e1904bae4085}
+      \strng{authorfullhash}{6b03f1dd19881c7c54d2e1904bae4085}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Financial and Quantitative Analysis}
+      \field{number}{2}
+      \field{title}{Deviations from put-call parity and stock return predictability}
+      \field{volume}{45}
+      \field{year}{2010}
+      \field{pages}{335\bibrangedash 367}
+      \range{pages}{33}
+    \endentry
+    \entry{fleming1996trading}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=454939825c9fda312f096417ca422f70}{%
+           family={Fleming},
+           familyi={F\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e56d8ddc632eca3041ea8d4a4781e61c}{%
+           family={Ostdiek},
+           familyi={O\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6b5c2a9dbfffe67468fbb9effbd3233a}{%
+           family={Whaley},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima E},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{f24d1b7bef3c7b43bfaeeae36f8bee6e}
+      \strng{fullhash}{f24d1b7bef3c7b43bfaeeae36f8bee6e}
+      \strng{bibnamehash}{f24d1b7bef3c7b43bfaeeae36f8bee6e}
+      \strng{authorbibnamehash}{f24d1b7bef3c7b43bfaeeae36f8bee6e}
+      \strng{authornamehash}{f24d1b7bef3c7b43bfaeeae36f8bee6e}
+      \strng{authorfullhash}{f24d1b7bef3c7b43bfaeeae36f8bee6e}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Futures Markets: Futures, Options, and Other Derivative Products}
+      \field{number}{4}
+      \field{title}{Trading costs and the relative rates of price discovery in stock, futures, and option markets}
+      \field{volume}{16}
+      \field{year}{1996}
+      \field{pages}{353\bibrangedash 387}
+      \range{pages}{35}
+    \endentry
+    \entry{manaster1982option}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=0178e26c966e8aab8808962e16a8872f}{%
+           family={Manaster},
+           familyi={M\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=556ed90b46de779096f40445ff36cb22}{%
+           family={Rendleman\bibnamedelima Jr},
+           familyi={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Richard\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{45f48eb1288e8d6b68dd32f604d2ea29}
+      \strng{fullhash}{45f48eb1288e8d6b68dd32f604d2ea29}
+      \strng{bibnamehash}{45f48eb1288e8d6b68dd32f604d2ea29}
+      \strng{authorbibnamehash}{45f48eb1288e8d6b68dd32f604d2ea29}
+      \strng{authornamehash}{45f48eb1288e8d6b68dd32f604d2ea29}
+      \strng{authorfullhash}{45f48eb1288e8d6b68dd32f604d2ea29}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{4}
+      \field{title}{Option prices as predictors of equilibrium stock prices}
+      \field{volume}{37}
+      \field{year}{1982}
+      \field{pages}{1043\bibrangedash 1057}
+      \range{pages}{15}
+    \endentry
+    \entry{ofek2004limited}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=2942102455d71f43437a1fab9aa0ac26}{%
+           family={Ofek},
+           familyi={O\bibinitperiod},
+           given={Eli},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f96c5999895363061e2fe84b4cd057df}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b6a10a1759a2131c5176dada982de75a}{%
+           family={Whitelaw},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima F},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{8bf9b5e14d0c0fc8ee93dd74207d4af2}
+      \strng{fullhash}{8bf9b5e14d0c0fc8ee93dd74207d4af2}
+      \strng{bibnamehash}{8bf9b5e14d0c0fc8ee93dd74207d4af2}
+      \strng{authorbibnamehash}{8bf9b5e14d0c0fc8ee93dd74207d4af2}
+      \strng{authornamehash}{8bf9b5e14d0c0fc8ee93dd74207d4af2}
+      \strng{authorfullhash}{8bf9b5e14d0c0fc8ee93dd74207d4af2}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Financial Economics}
+      \field{number}{2}
+      \field{title}{Limited arbitrage and short sales restrictions: Evidence from the options markets}
+      \field{volume}{74}
+      \field{year}{2004}
+      \field{pages}{305\bibrangedash 342}
+      \range{pages}{38}
+    \endentry
+    \entry{stephan1990intraday}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=36633de8eeb8366ca67210b4287eab80}{%
+           family={Stephan},
+           familyi={S\bibinitperiod},
+           given={Jens\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6b5c2a9dbfffe67468fbb9effbd3233a}{%
+           family={Whaley},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima E},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{01b5492bc77dcb2df1f93315a737b678}
+      \strng{fullhash}{01b5492bc77dcb2df1f93315a737b678}
+      \strng{bibnamehash}{01b5492bc77dcb2df1f93315a737b678}
+      \strng{authorbibnamehash}{01b5492bc77dcb2df1f93315a737b678}
+      \strng{authornamehash}{01b5492bc77dcb2df1f93315a737b678}
+      \strng{authorfullhash}{01b5492bc77dcb2df1f93315a737b678}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{1}
+      \field{title}{Intraday price change and trading volume relations in the stock and stock option markets}
+      \field{volume}{45}
+      \field{year}{1990}
+      \field{pages}{191\bibrangedash 220}
+      \range{pages}{30}
+    \endentry
+    \entry{stoll1969relationship}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9c5410f977a5a34fa0aa52fb29c9f769}{%
+           family={Stoll},
+           familyi={S\bibinitperiod},
+           given={Hans\bibnamedelima R},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{9c5410f977a5a34fa0aa52fb29c9f769}
+      \strng{fullhash}{9c5410f977a5a34fa0aa52fb29c9f769}
+      \strng{bibnamehash}{9c5410f977a5a34fa0aa52fb29c9f769}
+      \strng{authorbibnamehash}{9c5410f977a5a34fa0aa52fb29c9f769}
+      \strng{authornamehash}{9c5410f977a5a34fa0aa52fb29c9f769}
+      \strng{authorfullhash}{9c5410f977a5a34fa0aa52fb29c9f769}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{5}
+      \field{title}{The relationship between put and call option prices}
+      \field{volume}{24}
+      \field{year}{1969}
+      \field{pages}{801\bibrangedash 824}
+      \range{pages}{24}
+    \endentry
+    \entry{xing2010does}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=3699dcaeadd2412cb2ed528b141f8f0d}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Yuhang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5b996621da6e0ca32bcc27f9c7ceaed4}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiaoyan},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5db4068796cde560b4fd3829096ef6c5}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{f75c7351c51dbf8ef3b7537fc3e1f543}
+      \strng{fullhash}{f75c7351c51dbf8ef3b7537fc3e1f543}
+      \strng{bibnamehash}{f75c7351c51dbf8ef3b7537fc3e1f543}
+      \strng{authorbibnamehash}{f75c7351c51dbf8ef3b7537fc3e1f543}
+      \strng{authornamehash}{f75c7351c51dbf8ef3b7537fc3e1f543}
+      \strng{authorfullhash}{f75c7351c51dbf8ef3b7537fc3e1f543}
+      \field{sortinit}{X}
+      \field{sortinithash}{b0b62a29ee4a21a0e618fed53a0313cc}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Financial and Quantitative Analysis}
+      \field{number}{3}
+      \field{title}{What does the individual option volatility smirk tell us about future equity returns?}
+      \field{volume}{45}
+      \field{year}{2010}
+      \field{pages}{641\bibrangedash 662}
+      \range{pages}{22}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

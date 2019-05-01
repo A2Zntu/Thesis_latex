@@ -1996,23 +1996,25 @@
     <bcf:datasource type="file" datatype="bibtex">ref.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">manaster1982option</bcf:citekey>
-    <bcf:citekey order="2">anthony1988interrelation</bcf:citekey>
-    <bcf:citekey order="3">chakravarty2004informed</bcf:citekey>
-    <bcf:citekey order="4">cremers2010deviations</bcf:citekey>
-    <bcf:citekey order="5">xing2010does</bcf:citekey>
-    <bcf:citekey order="6">black1975fact</bcf:citekey>
-    <bcf:citekey order="6">fleming1996trading</bcf:citekey>
-    <bcf:citekey order="7">chan1993option</bcf:citekey>
-    <bcf:citekey order="8">stephan1990intraday</bcf:citekey>
-    <bcf:citekey order="9">cremers2010deviations</bcf:citekey>
-    <bcf:citekey order="10">stoll1969relationship</bcf:citekey>
-    <bcf:citekey order="11">black1973pricing</bcf:citekey>
-    <bcf:citekey order="12">amin2004index</bcf:citekey>
-    <bcf:citekey order="13">xing2010does</bcf:citekey>
-    <bcf:citekey order="14">ofek2004limited</bcf:citekey>
-    <bcf:citekey order="15">bollerslev2009expected</bcf:citekey>
-    <bcf:citekey order="16">cremers2010deviations</bcf:citekey>
+    <bcf:citekey order="1">easley1998option</bcf:citekey>
+    <bcf:citekey order="2">black1973pricing</bcf:citekey>
+    <bcf:citekey order="3">mayhew1995allocation</bcf:citekey>
+    <bcf:citekey order="4">fleming1996trading</bcf:citekey>
+    <bcf:citekey order="5">manaster1982option</bcf:citekey>
+    <bcf:citekey order="6">anthony1988interrelation</bcf:citekey>
+    <bcf:citekey order="7">chakravarty2004informed</bcf:citekey>
+    <bcf:citekey order="8">cremers2010deviations</bcf:citekey>
+    <bcf:citekey order="9">xing2010does</bcf:citekey>
+    <bcf:citekey order="10">chan1993option</bcf:citekey>
+    <bcf:citekey order="11">stephan1990intraday</bcf:citekey>
+    <bcf:citekey order="12">cremers2010deviations</bcf:citekey>
+    <bcf:citekey order="13">stoll1969relationship</bcf:citekey>
+    <bcf:citekey order="14">black1973pricing</bcf:citekey>
+    <bcf:citekey order="15">amin2004index</bcf:citekey>
+    <bcf:citekey order="16">xing2010does</bcf:citekey>
+    <bcf:citekey order="17">ofek2004limited</bcf:citekey>
+    <bcf:citekey order="18">bollerslev2009expected</bcf:citekey>
+    <bcf:citekey order="19">cremers2010deviations</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

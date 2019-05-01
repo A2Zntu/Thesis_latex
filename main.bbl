@@ -95,38 +95,6 @@
       \field{pages}{949\bibrangedash 964}
       \range{pages}{16}
     \endentry
-    \entry{black1975fact}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=93277dfc1ebe8d44428e74799781e4d7}{%
-           family={Black},
-           familyi={B\bibinitperiod},
-           given={Fischer},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Taylor \& Francis}%
-      }
-      \strng{namehash}{93277dfc1ebe8d44428e74799781e4d7}
-      \strng{fullhash}{93277dfc1ebe8d44428e74799781e4d7}
-      \strng{bibnamehash}{93277dfc1ebe8d44428e74799781e4d7}
-      \strng{authorbibnamehash}{93277dfc1ebe8d44428e74799781e4d7}
-      \strng{authornamehash}{93277dfc1ebe8d44428e74799781e4d7}
-      \strng{authorfullhash}{93277dfc1ebe8d44428e74799781e4d7}
-      \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Financial Analysts Journal}
-      \field{number}{4}
-      \field{title}{Fact and fantasy in the use of options}
-      \field{volume}{31}
-      \field{year}{1975}
-      \field{pages}{36\bibrangedash 41}
-      \range{pages}{6}
-    \endentry
     \entry{black1973pricing}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=93277dfc1ebe8d44428e74799781e4d7}{%
@@ -335,6 +303,50 @@
       \field{pages}{335\bibrangedash 367}
       \range{pages}{33}
     \endentry
+    \entry{easley1998option}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=ae8645460f8805b464c2d15ccfa24f67}{%
+           family={Easley},
+           familyi={E\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=58d96773db7ed1bdd7f093b6ac603d3a}{%
+           family={O'hara},
+           familyi={O\bibinitperiod},
+           given={Maureen},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b7683641762c87c263f820b410dfeec7}{%
+           family={Srinivas},
+           familyi={S\bibinitperiod},
+           given={Pulle\bibnamedelima Subrahmanya},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{c31da85c880af7347fa0278ebc9d0ee9}
+      \strng{fullhash}{c31da85c880af7347fa0278ebc9d0ee9}
+      \strng{bibnamehash}{c31da85c880af7347fa0278ebc9d0ee9}
+      \strng{authorbibnamehash}{c31da85c880af7347fa0278ebc9d0ee9}
+      \strng{authornamehash}{c31da85c880af7347fa0278ebc9d0ee9}
+      \strng{authorfullhash}{c31da85c880af7347fa0278ebc9d0ee9}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{2}
+      \field{title}{Option volume and stock prices: Evidence on where informed traders trade}
+      \field{volume}{53}
+      \field{year}{1998}
+      \field{pages}{431\bibrangedash 465}
+      \range{pages}{35}
+    \endentry
     \entry{fleming1996trading}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=454939825c9fda312f096417ca422f70}{%
@@ -416,6 +428,50 @@
       \field{year}{1982}
       \field{pages}{1043\bibrangedash 1057}
       \range{pages}{15}
+    \endentry
+    \entry{mayhew1995allocation}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=3afd31c613a1c37d9a5e8c9327d994f7}{%
+           family={Mayhew},
+           familyi={M\bibinitperiod},
+           given={Stewart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7cea1b9ee36a256d2b1520b8d06b7d4e}{%
+           family={Sarin},
+           familyi={S\bibinitperiod},
+           given={Atulya},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=838f897fedab49ad32dc828e963a535f}{%
+           family={Shastri},
+           familyi={S\bibinitperiod},
+           given={Kuldeep},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{bc835512de09405968aeb4bace412c18}
+      \strng{fullhash}{bc835512de09405968aeb4bace412c18}
+      \strng{bibnamehash}{bc835512de09405968aeb4bace412c18}
+      \strng{authorbibnamehash}{bc835512de09405968aeb4bace412c18}
+      \strng{authornamehash}{bc835512de09405968aeb4bace412c18}
+      \strng{authorfullhash}{bc835512de09405968aeb4bace412c18}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{5}
+      \field{title}{The allocation of informed trading across related markets: An analysis of the impact of changes in equity-option margin requirements}
+      \field{volume}{50}
+      \field{year}{1995}
+      \field{pages}{1635\bibrangedash 1653}
+      \range{pages}{19}
     \endentry
     \entry{ofek2004limited}{article}{}
       \name{author}{3}{}{%

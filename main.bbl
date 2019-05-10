@@ -95,6 +95,49 @@
       \field{pages}{949\bibrangedash 964}
       \range{pages}{16}
     \endentry
+    \entry{bergsma2018intraday}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=184feda5f795e4a29912938377819826}{%
+           family={Bergsma},
+           familyi={B\bibinitperiod},
+           given={Kelley},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b84aa68b370af901a41ef604f8e513a1}{%
+           family={Fodor},
+           familyi={F\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5d61254b7b78a8474d57d749b13a6c75}{%
+           family={Singal},
+           familyi={S\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c4b59772b90ecaa1fad6e687b9cad422}{%
+           family={Tayal},
+           familyi={T\bibinitperiod},
+           given={Jitendra},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{89810811eba53ed2309d5b712f30b029}
+      \strng{fullhash}{f06cf0b1bb611ca410a439091849194e}
+      \strng{bibnamehash}{89810811eba53ed2309d5b712f30b029}
+      \strng{authorbibnamehash}{89810811eba53ed2309d5b712f30b029}
+      \strng{authornamehash}{89810811eba53ed2309d5b712f30b029}
+      \strng{authorfullhash}{f06cf0b1bb611ca410a439091849194e}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Social Science Electronic Publishing. Available online: https://papers. ssrn. com/sol3/papers. cfm}
+      \field{title}{Intraday option to stock volume ratios and stock return predictability}
+      \field{year}{2018}
+    \endentry
     \entry{black1973pricing}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=93277dfc1ebe8d44428e74799781e4d7}{%
@@ -391,6 +434,50 @@
       \field{pages}{353\bibrangedash 387}
       \range{pages}{35}
     \endentry
+    \entry{holowczak2013aggregating}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=a0aee1d85dd5896da3e63b9427c62cd4}{%
+           family={Holowczak},
+           familyi={H\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f2c51d70c38c0b94bb0ed7b5dffdeae3}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Jianfeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=57b8d3911d2a5c0d58b924f7d66a48a2}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Liuren},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Institutional Investor Journals}%
+      }
+      \strng{namehash}{0c964c2db1c633a30898cbf635ced089}
+      \strng{fullhash}{0c964c2db1c633a30898cbf635ced089}
+      \strng{bibnamehash}{0c964c2db1c633a30898cbf635ced089}
+      \strng{authorbibnamehash}{0c964c2db1c633a30898cbf635ced089}
+      \strng{authornamehash}{0c964c2db1c633a30898cbf635ced089}
+      \strng{authorfullhash}{0c964c2db1c633a30898cbf635ced089}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Derivatives}
+      \field{number}{3}
+      \field{title}{Aggregating information in option transactions}
+      \field{volume}{21}
+      \field{year}{2013}
+      \field{pages}{9}
+      \range{pages}{1}
+    \endentry
     \entry{manaster1982option}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=0178e26c966e8aab8808962e16a8872f}{%
@@ -515,6 +602,44 @@
       \field{volume}{74}
       \field{year}{2004}
       \field{pages}{305\bibrangedash 342}
+      \range{pages}{38}
+    \endentry
+    \entry{pan2006information}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=2e5307efc6d7cb25cfbb8a92b5ac58a6}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f417c341a9063e71ae506d933cf0cd2e}{%
+           family={Poteshman},
+           familyi={P\bibinitperiod},
+           given={Allen\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{fcd8ae5de6dcb3c90e66d367b98de5fd}
+      \strng{fullhash}{fcd8ae5de6dcb3c90e66d367b98de5fd}
+      \strng{bibnamehash}{fcd8ae5de6dcb3c90e66d367b98de5fd}
+      \strng{authorbibnamehash}{fcd8ae5de6dcb3c90e66d367b98de5fd}
+      \strng{authornamehash}{fcd8ae5de6dcb3c90e66d367b98de5fd}
+      \strng{authorfullhash}{fcd8ae5de6dcb3c90e66d367b98de5fd}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Financial Studies}
+      \field{number}{3}
+      \field{title}{The information in option volume for future stock prices}
+      \field{volume}{19}
+      \field{year}{2006}
+      \field{pages}{871\bibrangedash 908}
       \range{pages}{38}
     \endentry
     \entry{stephan1990intraday}{article}{}

@@ -1,0 +1,6 @@
+\begin{figure}[h]
+\centering
+\includegraphics[scale=1.0]{network1}
+\caption{Network ot words}
+\label{fig:Network}
+\end{figure}

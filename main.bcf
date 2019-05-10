@@ -2008,13 +2008,17 @@
     <bcf:citekey order="10">chan1993option</bcf:citekey>
     <bcf:citekey order="11">stephan1990intraday</bcf:citekey>
     <bcf:citekey order="12">cremers2010deviations</bcf:citekey>
-    <bcf:citekey order="13">stoll1969relationship</bcf:citekey>
-    <bcf:citekey order="14">black1973pricing</bcf:citekey>
-    <bcf:citekey order="15">amin2004index</bcf:citekey>
-    <bcf:citekey order="16">xing2010does</bcf:citekey>
-    <bcf:citekey order="17">ofek2004limited</bcf:citekey>
-    <bcf:citekey order="18">bollerslev2009expected</bcf:citekey>
-    <bcf:citekey order="19">cremers2010deviations</bcf:citekey>
+    <bcf:citekey order="13">pan2006information</bcf:citekey>
+    <bcf:citekey order="14">bergsma2018intraday</bcf:citekey>
+    <bcf:citekey order="15">easley1998option</bcf:citekey>
+    <bcf:citekey order="16">stoll1969relationship</bcf:citekey>
+    <bcf:citekey order="17">black1973pricing</bcf:citekey>
+    <bcf:citekey order="18">amin2004index</bcf:citekey>
+    <bcf:citekey order="19">xing2010does</bcf:citekey>
+    <bcf:citekey order="20">holowczak2013aggregating</bcf:citekey>
+    <bcf:citekey order="21">ofek2004limited</bcf:citekey>
+    <bcf:citekey order="22">bollerslev2009expected</bcf:citekey>
+    <bcf:citekey order="23">cremers2010deviations</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

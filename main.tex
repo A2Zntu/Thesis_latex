@@ -18,8 +18,14 @@
 \usepackage{caption}
 \usepackage{indentfirst}
 \usepackage{subcaption}
-
-
+\usepackage[flushleft]{threeparttable}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = red, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor   = blue %Colour of citations
+}
 \usepackage{amsmath}
 \usepackage[backend=biber, citestyle = authoryear, bibstyle = authoryear, sorting=nty]{biblatex}
 \addbibresource{ref.bib}

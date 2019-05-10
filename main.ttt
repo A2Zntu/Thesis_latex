@@ -1,14 +1,19 @@
 \begin{table}[h]
 \centering
-\caption{Descriptive Statistics of Intraday CPIV}
+\caption{Descriptive Statistics of Intraday CPIV}\label{table:stats_of_CPIV}
+\begin{threeparttable}
 
-\tiny
-~\\~\\~
-\label{table:stats_of_CPIV}
-{\medskip\scriptsize
-This table shows descriptive statistics for CPIV of each interval. Panel A presents the summary statsitics for CPIV. Panel B presents the correlation matrix between the CPIV of each interval. In panel A, the columns
+\medskip
+
+
+{\scriptsize
+This table shows descriptive statistics for CPIV of each interval. Panel A presents the summary statsitics for CPIV. Panel B presents the population mean test among CPIV of each interval. In panel A, the first row represents all intervals.  \# Pos.CPIV is the amount of CPIV above zero, where \# Neg.CPIV is the amount of CPIV below zero. Nan Value Rate refers to the rate that CPIV of interval is blank due to the reasons like the option prices are out of boundary, or the maturity are not satisfied with the rules, , etc. In Panel B, the first row and column represent all intervals. the values in the table convey the p-value of population mean test between each interval.
 }
 \medskip
+\begin{subtable}[t]{\linewidth}
+
+\caption{Panel A: The Descriptive Statistics of CPIV on Quote Data }
+\tiny
 \begin{tabular}{ccccccccccccccc}
 \toprule
 \textbf{}        & 08:30 & 09:00 & 09:30 & 10:00 & 10:30 & 11:00 & 11:30 & 12:00 & 12:30 & 13:00 & 13:30 & 14:00 & 14:30 & 15:00 \\ \midrule
@@ -21,6 +26,49 @@ Median(\%)       & -3.36  & -3.72  & -3.59  & -3.55  & -3.47  & -3.49  & -3.50  
 \# Neg. CPIV     & 1916  & 2366  & 2183  & 2099  & 2048  & 1982  & 1943  & 1901  & 1847  & 1802  & 1758  & 1710  & 1649  & 1399  \\
 Nan Value Rate(\%) & 3.8   & 9.1   & 16.8  & 19.9  & 22.1  & 24.5  & 26.1  & 27.6  & 29.7  & 31.2  & 33.2  & 34.8  & 37.1  & 46.0  \\ \bottomrule
 \end{tabular}
+\end{subtable}
+
+\medskip
+
+\begin{subtable}[t]{\linewidth}
+
+\caption{Panel B: The Population Mean Test Among CPIV of Intervals}
+\tiny
+
+\begin{tabular}{|c|cccccccccccccc}
+\toprule
+
+& 08:30   & 09:00   & 09:30   & 10:00   & 10:30   & 11:00   & 11:30   & 12:00   & 12:30   & 13:00   & 13:30   & 14:00  & 14:30 & 15:00 \\ \midrule
+08:30 & 1       &         &         &         &         &         &         &         &         &         &         &        &       &       \\
+09:00 & 0.00*** & 1       &         &         &         &         &         &         &         &         &         &        &       &       \\
+09:30 & 0.00*** & 0.08*   & 1       &         &         &         &         &         &         &         &         &        &       &       \\
+10:00 & 0.00*** & 0.09*   & 0.91    & 1       &         &         &         &         &         &         &         &        &       &       \\
+10:30 & 0.00*** & 0.00*** & 0.10    & 0.07*   & 1       &         &         &         &         &         &         &        &       &       \\
+11:00 & 0.00*** & 0.00*** & 0.05**  & 0.03**  & 0.77    & 1       &         &         &         &         &         &        &       &       \\
+11:30 & 0.00*** & 0.00*** & 0.22    & 0.17    & 0.66    & 0.46    & 1       &         &         &         &         &        &       &       \\
+12:00 & 0.00*** & 0.00*** & 0.13    & 0.10    & 0.89    & 0.67    & 0.76    & 1       &         &         &         &        &       &       \\
+12:30 & 0.00*** & 0.00*** & 0.06*   & 0.04**  & 0.80    & 0.96    & 0.50    & 0.71    & 1       &         &         &        &       &       \\
+13:00 & 0.00*** & 0.00*** & 0.01*** & 0.06*   & 0.93    & 0.84    & 0.61    & 0.83    & 0.87    & 1       &         &        &       &       \\
+13:30 & 0.00*** & 0.00*** & 0.00*** & 0.01**  & 0.42    & 0.62    & 0.22    & 0.36    & 0.59    & 0.49    & 1       &        &       &       \\
+14:00 & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.09    & 0.16    & 0.04**  & 0.07*   & 0.16    & 0.12    & 0.37    & 1      &       &       \\
+14:30 & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.04** & 1     &       \\
+15:00 & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00***& 1   \\
+\bottomrule
+
+\end{tabular}
+
+\begin{tablenotes}
+%\multicolumn{4}{l}{\footnotesize \textit{Newey-West t} statistics in parentheses} \\
+%\multicolumn{4}{l}{\footnotesize * $p < 0.10$, ** $p < 0.05$, *** $p < 0.01$} \\
+\item
+\item[***]Significant at the 1 percent level.
+\item[**]Significant at the 5 percent level.
+\item[*]Significant at the 10 percent level.
+\end{tablenotes}
+
+\end{subtable}
+\end{threeparttable}
+
 \end{table}
 \efloatseparator
  

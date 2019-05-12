@@ -95,6 +95,50 @@
       \field{pages}{949\bibrangedash 964}
       \range{pages}{16}
     \endentry
+    \entry{atilgan2015implied}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=0754ffacf5e70846f1f811efa557accf}{%
+           family={Atilgan},
+           familyi={A\bibinitperiod},
+           given={Yigit},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5b1c6d2f9eec813d903b7af10e294cb4}{%
+           family={Bali},
+           familyi={B\bibinitperiod},
+           given={Turan\bibnamedelima G},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6419f52e22de76ebb7c04d2f245900b2}{%
+           family={Demirtas},
+           familyi={D\bibinitperiod},
+           given={K\bibnamedelima Ozgur},
+           giveni={K\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{fa4a741b7865e56e0d5504755b1a031c}
+      \strng{fullhash}{fa4a741b7865e56e0d5504755b1a031c}
+      \strng{bibnamehash}{fa4a741b7865e56e0d5504755b1a031c}
+      \strng{authorbibnamehash}{fa4a741b7865e56e0d5504755b1a031c}
+      \strng{authornamehash}{fa4a741b7865e56e0d5504755b1a031c}
+      \strng{authorfullhash}{fa4a741b7865e56e0d5504755b1a031c}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business \& Economic Statistics}
+      \field{number}{1}
+      \field{title}{Implied volatility spreads and expected market returns}
+      \field{volume}{33}
+      \field{year}{2015}
+      \field{pages}{87\bibrangedash 101}
+      \range{pages}{15}
+    \endentry
     \entry{bergsma2018intraday}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,uniquepart=base,hash=184feda5f795e4a29912938377819826}{%
@@ -434,6 +478,38 @@
       \field{pages}{353\bibrangedash 387}
       \range{pages}{35}
     \endentry
+    \entry{hentschel2003errors}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4f8886e6948f00a33097d49a74a8cb0f}{%
+           family={Hentschel},
+           familyi={H\bibinitperiod},
+           given={Ludger},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{4f8886e6948f00a33097d49a74a8cb0f}
+      \strng{fullhash}{4f8886e6948f00a33097d49a74a8cb0f}
+      \strng{bibnamehash}{4f8886e6948f00a33097d49a74a8cb0f}
+      \strng{authorbibnamehash}{4f8886e6948f00a33097d49a74a8cb0f}
+      \strng{authornamehash}{4f8886e6948f00a33097d49a74a8cb0f}
+      \strng{authorfullhash}{4f8886e6948f00a33097d49a74a8cb0f}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Financial and Quantitative analysis}
+      \field{number}{4}
+      \field{title}{Errors in implied volatility estimation}
+      \field{volume}{38}
+      \field{year}{2003}
+      \field{pages}{779\bibrangedash 810}
+      \range{pages}{32}
+    \endentry
     \entry{holowczak2013aggregating}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=a0aee1d85dd5896da3e63b9427c62cd4}{%
@@ -559,6 +635,39 @@
       \field{year}{1995}
       \field{pages}{1635\bibrangedash 1653}
       \range{pages}{19}
+    \endentry
+    \entry{newey1986simple}{misc}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=058d74ae5e89fbd5a49ebdbe97b4c922}{%
+           family={Newey},
+           familyi={N\bibinitperiod},
+           given={Whitney\bibnamedelima K},
+           giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c9458dd7fe490cece576ba5c37b500fb}{%
+           family={West},
+           familyi={W\bibinitperiod},
+           given={Kenneth\bibnamedelima D},
+           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Bureau of Economic Research Cambridge, Mass., USA}%
+      }
+      \strng{namehash}{d3fa486ef38e9026d7e9a49009f51077}
+      \strng{fullhash}{d3fa486ef38e9026d7e9a49009f51077}
+      \strng{bibnamehash}{d3fa486ef38e9026d7e9a49009f51077}
+      \strng{authorbibnamehash}{d3fa486ef38e9026d7e9a49009f51077}
+      \strng{authornamehash}{d3fa486ef38e9026d7e9a49009f51077}
+      \strng{authorfullhash}{d3fa486ef38e9026d7e9a49009f51077}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A simple, positive semi-definite, heteroskedasticity and autocorrelationconsistent covariance matrix}
+      \field{year}{1986}
     \endentry
     \entry{ofek2004limited}{article}{}
       \name{author}{3}{}{%
@@ -720,12 +829,12 @@
            given={Yuhang},
            giveni={Y\bibinitperiod},
            givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=5b996621da6e0ca32bcc27f9c7ceaed4}{%
+        {{uniquename=1,uniquepart=given,hash=5b996621da6e0ca32bcc27f9c7ceaed4}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
            given={Xiaoyan},
            giveni={X\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{uniquename=0,uniquepart=base,hash=5db4068796cde560b4fd3829096ef6c5}{%
            family={Zhao},
            familyi={Z\bibinitperiod},
@@ -754,6 +863,44 @@
       \field{volume}{45}
       \field{year}{2010}
       \field{pages}{641\bibrangedash 662}
+      \range{pages}{22}
+    \endentry
+    \entry{zhang2008implied}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,uniquepart=given,hash=90665a18fe00ad2d2c8586bd62760e4b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jin\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=afccc7c96f1ab9dace48c943d291cfbb}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{8f1008dcf648479531065a98db0e8095}
+      \strng{fullhash}{8f1008dcf648479531065a98db0e8095}
+      \strng{bibnamehash}{8f1008dcf648479531065a98db0e8095}
+      \strng{authorbibnamehash}{8f1008dcf648479531065a98db0e8095}
+      \strng{authornamehash}{8f1008dcf648479531065a98db0e8095}
+      \strng{authorfullhash}{8f1008dcf648479531065a98db0e8095}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quantitative Finance}
+      \field{number}{3}
+      \field{title}{The implied volatility smirk}
+      \field{volume}{8}
+      \field{year}{2008}
+      \field{pages}{263\bibrangedash 284}
       \range{pages}{22}
     \endentry
   \enddatalist

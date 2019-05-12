@@ -2018,7 +2018,11 @@
     <bcf:citekey order="20">holowczak2013aggregating</bcf:citekey>
     <bcf:citekey order="21">ofek2004limited</bcf:citekey>
     <bcf:citekey order="22">bollerslev2009expected</bcf:citekey>
-    <bcf:citekey order="23">cremers2010deviations</bcf:citekey>
+    <bcf:citekey order="23">atilgan2015implied</bcf:citekey>
+    <bcf:citekey order="24">zhang2008implied</bcf:citekey>
+    <bcf:citekey order="25">newey1986simple</bcf:citekey>
+    <bcf:citekey order="26">newey1986simple</bcf:citekey>
+    <bcf:citekey order="27">hentschel2003errors</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

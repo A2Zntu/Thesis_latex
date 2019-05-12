@@ -1,13 +1,13 @@
 \begin{table}[h]
 \centering
-\caption{Descriptive Statistics of Intraday CPIV}\label{table:stats_of_CPIV}
+\caption{Descriptive Statistics of Intraday CPIV of Quote Data}\label{table:stats_of_CPIV}
 \begin{threeparttable}
 
 \medskip
 
 
 {\scriptsize
-This table shows descriptive statistics for CPIV of each interval. Panel A presents the summary statsitics for CPIV. Panel B presents the population mean test among CPIV of each interval. In panel A, the first row represents all intervals.  \# Pos.CPIV is the amount of CPIV above zero, where \# Neg.CPIV is the amount of CPIV below zero. Nan Value Rate refers to the rate that CPIV of interval is blank due to the reasons like the option prices are out of boundary, or the maturity are not satisfied with the rules, , etc. In Panel B, the first row and column represent all intervals. the values in the table convey the p-value of population mean test between each interval.
+This table shows descriptive statistics for CPIV of each interval. Panel A presents the summary statsitics for CPIV. Panel B presents the population mean test among CPIV of each interval. In panel A, the first row represents all intervals.  \# Pos.CPIV is the amount of CPIV above zero, where \# Neg.CPIV is the amount of CPIV below zero. Nan Value Rate refers to the rate that CPIV of interval is blank due to the reasons like the option prices are out of boundary, or the maturity are not satisfied with the rules, etc. In Panel B, the first row and column represent all intervals. the values in the table convey the p-value of population mean test between each interval.
 }
 \medskip
 \begin{subtable}[t]{\linewidth}
@@ -50,7 +50,7 @@ Nan Value Rate(\%) & 3.8   & 9.1   & 16.8  & 19.9  & 22.1  & 24.5  & 26.1  & 27.
 12:30 & 0.00*** & 0.00*** & 0.06*   & 0.04**  & 0.80    & 0.96    & 0.50    & 0.71    & 1       &         &         &        &       &       \\
 13:00 & 0.00*** & 0.00*** & 0.01*** & 0.06*   & 0.93    & 0.84    & 0.61    & 0.83    & 0.87    & 1       &         &        &       &       \\
 13:30 & 0.00*** & 0.00*** & 0.00*** & 0.01**  & 0.42    & 0.62    & 0.22    & 0.36    & 0.59    & 0.49    & 1       &        &       &       \\
-14:00 & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.09    & 0.16    & 0.04**  & 0.07*   & 0.16    & 0.12    & 0.37    & 1      &       &       \\
+14:00 & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.09*   & 0.16    & 0.04**  & 0.07*   & 0.16    & 0.12    & 0.37    & 1      &       &       \\
 14:30 & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.04** & 1     &       \\
 15:00 & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00*** & 0.00***& 1   \\
 \bottomrule
@@ -67,6 +67,7 @@ Nan Value Rate(\%) & 3.8   & 9.1   & 16.8  & 19.9  & 22.1  & 24.5  & 26.1  & 27.
 \end{tablenotes}
 
 \end{subtable}
+
 \end{threeparttable}
 
 \end{table}
@@ -74,24 +75,81 @@ Nan Value Rate(\%) & 3.8   & 9.1   & 16.8  & 19.9  & 22.1  & 24.5  & 26.1  & 27.
  
 \begin{table}[h]
 \centering
-\caption{Multivariate Regressions of SPX Return on IVS and Controls -2}
-\small
-~\\~\\~
-\label{Return-2}
-\begin{tabular}{@{}cccccccc@{}}
+\caption{Descriptive Statistics of Intraday CPIV of Trade Data}\label{table:stats_of_CPIV_2}
+\begin{threeparttable}
+
+\medskip
+
+{\scriptsize
+This table shows descriptive statistics for CPIV of each interval. Panel A presents the summary statsitics for CPIV. Panel B presents the population mean test among CPIV of each interval. In panel A, the first row represents all intervals.  \# Pos.CPIV is the amount of CPIV above zero, where \# Neg.CPIV is the amount of CPIV below zero. Nan Value Rate refers to the rate that CPIV of interval is blank due to the reasons like the option prices are out of boundary, or the maturity are not satisfied with the rules, etc. In Panel B, the first row and column represent all intervals. the values in the table convey the p-value of population mean test between each interval.
+}
+\medskip
+
+\begin{subtable}[t]{\linewidth}
+
+\caption{Panel A: The Descriptive Statistics of CPIV on Trade Data }
+\tiny
+
+\begin{tabular}{ccccccccccccccc}
 \toprule
-                & 12:00      & 12:30      & 13:00      & 13:30      & 14:00      & 14:30      & 15:00      \\ \midrule
-Intercept       & 0.00       & 0.00       & 0.00       & 0.00       & 0.00       & 0.00       & 0.00       \\
-                & -0.19      & (-0.33)    & -0.84      & -0.50      & -0.16      & -0.35      & -0.09      \\
-IVS             & -0.03      & -0.05      & 0.03       & 0.01       & -0.01      & 0.00       & -0.04      \\
-                & (-1.08)    & (-1.97)*** & -0.87      & -0.19      & (-0.32)    & (-0.02)    & (-0.81)    \\
-DDEF            & 0.00       & 0.00       & 0.00       & 0.00       & 0.00       & 0.00       & 0.00       \\
-                & (-0.82)    & (-0.97)    & (-0.55)    & (-0.86)    & (-0.68)    & (-0.74)    & (-1.01)    \\
-DTERM           & 0.00       & 0.00       & 0.00       & 0.00       & 0.00       & 0.00       & 0.00       \\
-                & -0.54      & -0.96      & -0.99      & -1.21      & -1.02      & -1.10      & -1.14      \\
-lag\_return     & -0.10      & -0.10      & -0.10      & -0.10      & -0.10      & -0.11      & -0.10      \\
-                & (-3.13)*** & (-3.04)*** & (-3.07)*** & (-3.01)*** & (-2.89)*** & (-3.26)*** & (-3.23)*** \\
-                &            &            &            &            &            &            &            \\
-Adj Rsquare(\%) & 1.24       & 1.99       & 1.25       & 1.14       & 1.02       & 1.27       & 1.36       \\ \bottomrule
+
+                   & 08:30  & 09:00  & 09:30  & 10:00  & 10:30  & 11:00  & 11:30  & 12:00  & 12:30  & 13:00  & 13:30  & 14:00  & 14:30  & 15:00  \\ \midrule 
+Mean(\%)           & -1.74  & -1.84  & -1.90  & -1.86  & -1.93  & -1.98  & -1.97  & -1.94  & -1.94  & -1.98  & -1.97  & -1.94  & -1.94  & -1.78  \\
+Std(\%)            & 4.33   & 1.48   & 1.34   & 1.90   & 2.39   & 1.63   & 1.69   & 1.49   & 2.84   & 1.64   & 1.90   & 2.30   & 1.86   & 3.30   \\
+Min(\%)            & -38.20 & -32.80 & -16.22 & -29.52 & -30.79 & -28.91 & -33.16 & -19.60 & -50.13 & -22.20 & -36.12 & -41.78 & -38.06 & -22.06 \\
+Max(\%)            & 29.45  & 7.62   & 6.26   & 37.88  & 81.43  & 11.01  & 7.80   & 6.96   & 102.54 & 8.99   & 13.56  & 38.66  & 19.13  & 139.27 \\
+Median(\%)         & -1.58  & -1.77  & -1.86  & -1.83  & -1.89  & -1.93  & -1.91  & -1.94  & -1.90  & -1.90  & -1.88  & -1.91  & -1.86  & -1.76  \\
+\# Pos. CPIV       & 586    & 107    & 105    & 120    & 92     & 100    & 97     & 99     & 88     & 101    & 98     & 102    & 96     & 96     \\
+\# Neg. CPIV       & 2139   & 2647   & 2635   & 2601   & 2586   & 2540   & 2474   & 2453   & 2409   & 2412   & 2477   & 2495   & 2573   & 2631   \\
+Nan Value Rate(\%) & 1.52   & 0.47   & 0.98   & 1.66   & 3.22   & 4.59   & 7.08   & 7.77   & 9.76   & 9.18   & 6.94   & 6.14   & 3.54   & 1.45
+\\
+\bottomrule
 \end{tabular}
+\end{subtable}
+
+
+\medskip
+
+\begin{subtable}[t]{\linewidth}
+
+\caption{Panel B: The Population Mean Test Among CPIV of Intervals}
+\tiny
+
+\begin{tabular}{|c|cccccccccccccc}
+\toprule
+
+      & 08:30   & 09:00   & 09:30  & 10:00  & 10:30 & 11:00   & 11:30   & 12:00  & 12:30  & 13:00   & 13:30  & 14:00  & 14:30  & 15:00 \\ \midrule
+08:30 & 1       &         &        &        &       &         &         &        &        &         &        &        &        &       \\
+09:00 & 0.26    & 1       &        &        &       &         &         &        &        &         &        &        &        &       \\
+09:30 & 0.06*   & 0.11    & 1      &        &       &         &         &        &        &         &        &        &        &       \\
+10:00 & 0.18    & 0.62    & 0.39   & 1      &       &         &         &        &        &         &        &        &        &       \\
+10:30 & 0.04**  & 0.09*   & 0.56   & 0.24   & 1     &         &         &        &        &         &        &        &        &       \\
+11:00 & 0.01*** & 0.00*** & 0.04** & 0.01** & 0.34  & 1       &         &        &        &         &        &        &        &       \\
+11:30 & 0.01*** & 0.00*** & 0.08*  & 0.02** & 0.44  & 0.84    & 1       &        &        &         &        &        &        &       \\
+12:00 & 0.02**  & 0.01**  & 0.26   & 0.08   & 0.81  & 0.36    & 0.49    & 1      &        &         &        &        &        &       \\
+12:30 & 0.04**  & 0.11    & 0.51   & 0.24   & 0.88  & 0.51    & 0.62    & 0.97   & 1      &         &        &        &        &       \\
+13:00 & 0.01**  & 0.00*** & 0.05** & 0.01** & 0.35  & 0.99    & 0.85    & 0.37   & 0.52   & 1       &        &        &        &       \\
+13:30 & 0.01**  & 0.01**  & 0.12   & 0.04** & 0.50  & 0.79    & 0.94    & 0.58   & 0.67   & 0.80    & 1      &        &        &       \\
+14:00 & 0.03**  & 0.05**  & 0.41   & 0.16   & 0.86  & 0.45    & 0.57    & 0.98   & 0.99   & 0.46    & 0.63   & 1      &        &       \\
+14:30 & 0.02**  & 0.02**  & 0.32   & 0.11   & 0.82  & 0.40    & 0.53    & 1.00   & 0.97   & 0.42    & 0.61   & 0.98   & 1      &       \\
+15:00 & 0.72    & 0.37    & 0.07** & 0.25   & 0.05* & 0.00*** & 0.01*** & 0.02** & 0.05** & 0.00*** & 0.01** & 0.03** & 0.02** & 1  \\
+\bottomrule
+
+\end{tabular}
+
+\begin{tablenotes}
+%\multicolumn{4}{l}{\footnotesize \textit{Newey-West t} statistics in parentheses} \\
+%\multicolumn{4}{l}{\footnotesize * $p < 0.10$, ** $p < 0.05$, *** $p < 0.01$} \\
+\item
+\item[***]Significant at the 1 percent level.
+\item[**]Significant at the 5 percent level.
+\item[*]Significant at the 10 percent level.
+\end{tablenotes}
+
+\end{subtable}
+
+
+
+\end{threeparttable}
+
 \end{table}

@@ -1,0 +1,4 @@
+PWD C:\Users\Evan\Documents\GitHub\Thesis_latex\chapters
+INPUT C:\Users\Evan\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT information.tex
+OUTPUT information.log

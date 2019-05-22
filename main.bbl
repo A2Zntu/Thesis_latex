@@ -352,6 +352,43 @@
       \field{pages}{1957\bibrangedash 1967}
       \range{pages}{11}
     \endentry
+    \entry{chang2018implied}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=c6e1506217992519ab3fe801fc01aac1}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Chuang-Chang},
+           giveni={C\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e104c47be74feab27126d54ec9f6ce0a}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Zih-Ying},
+           giveni={Z\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9fb12c67763f358164d6fb8c904ad829}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yaw-Huei},
+           giveni={Y\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cfa1adf06b1f9b5d1096cf5bb9545dbb}
+      \strng{fullhash}{cfa1adf06b1f9b5d1096cf5bb9545dbb}
+      \strng{bibnamehash}{cfa1adf06b1f9b5d1096cf5bb9545dbb}
+      \strng{authorbibnamehash}{cfa1adf06b1f9b5d1096cf5bb9545dbb}
+      \strng{authornamehash}{cfa1adf06b1f9b5d1096cf5bb9545dbb}
+      \strng{authorfullhash}{cfa1adf06b1f9b5d1096cf5bb9545dbb}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Available at SSRN 3096877}
+      \field{title}{Implied Volatility Spreads and Future Options Returns Around Information Events and Conditions}
+      \field{year}{2018}
+    \endentry
     \entry{cremers2010deviations}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=4f8dd330382d95024562781a0f2b6644}{%
@@ -553,6 +590,50 @@
       \field{year}{2013}
       \field{pages}{9}
       \range{pages}{1}
+    \endentry
+    \entry{kumar1992behavior}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=990308786c0c28bf822d9eac8419a24c}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Raman},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7cea1b9ee36a256d2b1520b8d06b7d4e}{%
+           family={Sarin},
+           familyi={S\bibinitperiod},
+           given={Atulya},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=838f897fedab49ad32dc828e963a535f}{%
+           family={Shastri},
+           familyi={S\bibinitperiod},
+           given={Kuldeep},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{aec3003a1ed9ba5349e7507bcc9271bb}
+      \strng{fullhash}{aec3003a1ed9ba5349e7507bcc9271bb}
+      \strng{bibnamehash}{aec3003a1ed9ba5349e7507bcc9271bb}
+      \strng{authorbibnamehash}{aec3003a1ed9ba5349e7507bcc9271bb}
+      \strng{authornamehash}{aec3003a1ed9ba5349e7507bcc9271bb}
+      \strng{authorfullhash}{aec3003a1ed9ba5349e7507bcc9271bb}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{3}
+      \field{title}{The behavior of option price around large block transactions in the underlying security}
+      \field{volume}{47}
+      \field{year}{1992}
+      \field{pages}{879\bibrangedash 889}
+      \range{pages}{11}
     \endentry
     \entry{manaster1982option}{article}{}
       \name{author}{2}{}{%

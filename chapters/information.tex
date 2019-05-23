@@ -5,12 +5,23 @@ According to \textcite{atilgan2015implied}, the periods of extremely high or low
  \begin{equation}  \label{eq:info}
 SPX\_Return_{t} = \alpha + \beta _{1}VSPLUS_{t} + \beta _{2}VSMINUS_{t} + \beta _{3}DEF_{t} + \beta _{4}TERM_{t} + \varepsilon _{t}
  \end{equation}
-We follow the method \parencite{atilgan2015implied} to define a dummy variable that is equal to one for a given trading day if the consumer sentiment index is greater than its $90^{th}$ percentile or less than its $10^{th}$ percentile over the sample period, and 0 otherwise. Hence, follow prior studies, VSPLUS is denoted as CPIV if dummy variable is equal to one and 0 otherwise, while VSMINUS is denoted as CPIV of dummy variable is equal to zero and 0 otherwise. If the information in CPIV to consumer sentiment is essential in the predictive power of the CPIV on index returns, then $\beta _{1}$ is expected to be positive and larger than $\beta _{2}$. 
+We follow previous method to define a dummy variable that is equal to one for a given trading day if the consumer sentiment index is greater than its $90^{th}$ percentile or less than its $10^{th}$ percentile over the sample period, and 0 otherwise. Hence, follow prior studies, VSPLUS is denoted as CPIV if dummy variable is equal to one and 0 otherwise, while VSMINUS is denoted as CPIV of dummy variable is equal to zero and 0 otherwise. If the information in CPIV to consumer sentiment is essential in the predictive power of the CPIV on index returns, then $\beta _{1}$ is expected to be positive and larger than $\beta _{2}$. 
 
-Panel A in \autoref{table:sentiment} focuses on Baker and Wurgler (BW) sentiment index\footnote{The data can be found in Jeffrey Wurgler personal website}, while panel B centers around University of Michigan Consumer (UOM) Sentiment Index\footnote{The data are available on the University of Michigan Website}. From our empirical results, 
+Panel A in \autoref{table:sentiment} focuses on Baker and Wurgler (BW) sentiment index\footnote{The data can be found in Jeffrey Wurgler personal website}, while panel B centers around University of Michigan Consumer (UOM) Sentiment Index\footnote{The data are available on the University of Michigan Website}. Firstly, from panel A, our empirical results show that all the coefficients of VSPLUS is positive and greater than the coefficients of VSMINUS except for the open-interval. Moreover, compared with the original contemporaneous \autoref{eq:contem}, there are more than two intervals with significant positive coefficients, and 1.2 basis higher than original coefficents in average. 
 
+Secondly, from panel B, the results based on UOM sentiment measures are consistent with those based on the BW sentiment measure. Not only all the coefficients of VSPLUS is positive and greater than the coefficients of VSMINUS, but also there are even more significant VSPLUS than the amount of BW sentiment measure. From the table, the significant interval of VSPLUS are around 0.05\%, which are 1.5 times larger than coefficients of original regressions. 
 
+In summary, these results are consistent with \textcite{baker2006investor}, which argues that prices can deviate from fundamental values because a significant part of the investor class is irrational at the roots of behavioral finance. Hence, the predictability produced by CPIV is found to be more noticeable during the high sentiment periods.  
 
+\subsection{Option Liquidity}
+
+Myriad studies lile \textcite{easley1998option}, \textcite{cremers2010deviations}, \textcite{driessen2012option} indicated that the predictability will be stringer in options with higher liquidity. In this section, we also follow the method in \textcite{chang2018implied} to segregate the high option liquidity periods and others. We use the S\&P 500 option daily trading volume to represent the option liquidity, which is available on WRDS. Furhermore, we define a dummy variable that is equal to one for a given trading day if the option volume is greater than its $90^{th}$ percentile over the sample period, and 0 otherwise. Hence, follow prior studies, VSPLUS is denoted as CPIV if dummy variable is equal to one and 0 otherwise, while VSMINUS is denoted as CPIV of dummy variable is equal to zero and 0 otherwise. If the information in CPIV to option liquidity is instrumental in the predictive power of the CPIV on index returns, then $\beta _{1}$ is expected to be positive and larger than $\beta _{2}$.
+
+Panel A in \autoref{table:Volume} describes the regression results on the effect of option liquidity. All the coefficients of VSPLUS is positive and greater than the coefficients of VSMINUS. Moreover, compared with the original contemporaneous \autoref{eq:contem}, there are five intervals with significant positive coefficients, and 3.4 basis higher than original coefficents in average. 
+
+In summary, we find out the predictability of contemporaneous index return increases with option liquidity. These results are in line with previous literature. 
+
+\subsection{Economic States}
 
 
 

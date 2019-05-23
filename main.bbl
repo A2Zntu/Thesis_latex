@@ -139,6 +139,44 @@
       \field{pages}{87\bibrangedash 101}
       \range{pages}{15}
     \endentry
+    \entry{baker2006investor}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=ea81fcdd9f9956f47bcacdcc401eab2d}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Malcolm},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b7e0411fd16ab16a3f6e3e2677fbed4e}{%
+           family={Wurgler},
+           familyi={W\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{fullhash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{bibnamehash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{authorbibnamehash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{authornamehash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{authorfullhash}{295d1825bb391d34cb03d80cd64a4b92}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The journal of finance}
+      \field{number}{4}
+      \field{title}{Investor sentiment and the cross-section of stock returns}
+      \field{volume}{61}
+      \field{year}{2006}
+      \field{pages}{1645\bibrangedash 1680}
+      \range{pages}{36}
+    \endentry
     \entry{bergsma2018intraday}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,uniquepart=base,hash=184feda5f795e4a29912938377819826}{%
@@ -360,12 +398,12 @@
            given={Chuang-Chang},
            giveni={C\bibinithyphendelim C\bibinitperiod},
            givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=e104c47be74feab27126d54ec9f6ce0a}{%
+        {{uniquename=1,uniquepart=given,hash=e104c47be74feab27126d54ec9f6ce0a}{%
            family={Lin},
            familyi={L\bibinitperiod},
            given={Zih-Ying},
            giveni={Z\bibinithyphendelim Y\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{uniquename=0,uniquepart=base,hash=9fb12c67763f358164d6fb8c904ad829}{%
            family={Wang},
            familyi={W\bibinitperiod},
@@ -426,6 +464,47 @@
       \field{year}{2010}
       \field{pages}{335\bibrangedash 367}
       \range{pages}{33}
+    \endentry
+    \entry{driessen2012option}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=8379ab2c66b9de7288c13e6cbf3035c1}{%
+           family={Driessen},
+           familyi={D\bibinitperiod},
+           given={Joost},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=1,uniquepart=given,hash=1175f93950fd98c6126b8b54f0d14bda}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Tse-Chun},
+           giveni={T\bibinithyphendelim C\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=fe9f7eed3b9b0dc1277bc25d244162d0}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiaolong},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{f9a0a89ff2f417062d92f94544c3993a}
+      \strng{fullhash}{f9a0a89ff2f417062d92f94544c3993a}
+      \strng{bibnamehash}{f9a0a89ff2f417062d92f94544c3993a}
+      \strng{authorbibnamehash}{f9a0a89ff2f417062d92f94544c3993a}
+      \strng{authornamehash}{f9a0a89ff2f417062d92f94544c3993a}
+      \strng{authorfullhash}{f9a0a89ff2f417062d92f94544c3993a}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SSRN: https://ssrn. com/abstract}
+      \field{title}{Why do option prices predict stock returns}
+      \field{volume}{2400955}
+      \field{year}{2012}
     \endentry
     \entry{easley1998option}{article}{}
       \name{author}{3}{}{%

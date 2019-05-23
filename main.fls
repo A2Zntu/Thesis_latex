@@ -222,6 +222,8 @@ INPUT chapters\results.tex
 INPUT chapters\results.tex
 INPUT chapters\information.tex
 INPUT chapters\information.tex
+INPUT chapters\conclusion.tex
+INPUT chapters\conclusion.tex
 INPUT C:\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\MiKTeX 2.9\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8r.tfm

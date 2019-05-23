@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.11)  22 MAY 2019 22:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.11)  23 MAY 2019 17:07
 entering extended mode
 **./main.tex
 (main.tex
@@ -661,9 +661,9 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <13> not available
 (Font)              size <12> substituted on input line 4.
 
 [5] [6] [7]
-Overfull \hbox (4.30832pt too wide) in paragraph at lines 55--56
-[]\OT1/ptm/m/n/13 Following the prior stud-ies[]Bollerslev, Tauchen, and Zhou (
-[][]2009[][]), sev-eral macro-
+Overfull \hbox (5.93347pt too wide) in paragraph at lines 55--56
+[]\OT1/ptm/m/n/13 Following the prior stud-ies []Boller-slev, Tauchen, and Zhou
+ ([][]2009[][]), sev-eral macro-
  []
 
 [8] [9]
@@ -715,17 +715,17 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 112.
 \openout3 = `main.ttt'.
 
 (main.ttt)) (chapters/results.tex [11] [12] [13] [14]) (chapters/information.te
-x [15]) [16]
-Overfull \hbox (14.55267pt too wide) in paragraph at lines 78--78
+x [15] [16]) (chapters/conclusion.tex) [17] [18]
+Overfull \hbox (14.55267pt too wide) in paragraph at lines 85--85
 \OT1/ptm/m/n/12 pre-dictabil-ity''. In: \OT1/ptm/m/it/12 So-cial Sci-ence Elec-
 tronic Pub-lish-ing. Avail-able on-line: https://papers.
  []
 
-[17] [18] AED endfloat: Processing end Figures and Tables [19] (main.lot)
+[19] [20] AED endfloat: Processing end Figures and Tables [21] (main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
-[20
+[22
 
 
 ] (main.ttt
@@ -741,7 +741,7 @@ Overfull \hbox (34.04454pt too wide) in paragraph at lines 33--70
  [][] 
  []
 
-[21
+[23
 
 ]
 Overfull \hbox (18.83377pt too wide) in paragraph at lines 88--109
@@ -753,9 +753,9 @@ Overfull \hbox (7.21248pt too wide) in paragraph at lines 113--150
 [][] 
  []
 
-[22
+[24
 
-] [23
+] [25
 
 ]
 Overfull \hbox (8.95923pt too wide) in paragraph at lines 215--244
@@ -767,14 +767,14 @@ Overfull \hbox (1.94502pt too wide) in paragraph at lines 246--275
 [][] 
  []
 
-[24
+[26
 
 ]
 Overfull \hbox (30.33113pt too wide) in paragraph at lines 286--325
 [] 
  []
 
-[25
+[27
 
 ]
 Overfull \hbox (23.1536pt too wide) in paragraph at lines 342--373
@@ -786,23 +786,23 @@ Overfull \hbox (20.1475pt too wide) in paragraph at lines 375--406
 [][] 
  []
 
-[26
+[28
 
 ]
 Overfull \hbox (17.1536pt too wide) in paragraph at lines 417--458
 [] 
  []
 
-) [27
+) [29
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
 (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5C1C229E6D3C195025864C82047B8A2B;815.
+(rerunfilecheck)             Checksum: C7CF000C6496B15B9D3EC7FAA57BDAB1;995.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
@@ -810,13 +810,13 @@ LaTeX Font Warning: Size substitutions with differences
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 14679 strings out of 492969
- 245569 string characters out of 3142023
- 711181 words of memory out of 3000000
- 18273 multiletter control sequences out of 15000+200000
+ 14702 strings out of 492969
+ 246078 string characters out of 3142023
+ 711376 words of memory out of 3000000
+ 18286 multiletter control sequences out of 15000+200000
  39829 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,14n,55p,1574b,1395s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -834,9 +834,9 @@ ts/type1/public/amsfonts/cm/cmr9.pfb><C:/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb><C:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/MiKT
 eX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/MiKTeX 2.9/fonts/type1/urw/times/ut
 mr8a.pfb><C:/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (27 pages, 291305 bytes).
+Output written on main.pdf (29 pages, 299048 bytes).
 PDF statistics:
- 387 PDF objects out of 1000 (max. 8388607)
- 102 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 420 PDF objects out of 1000 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

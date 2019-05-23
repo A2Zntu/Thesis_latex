@@ -2028,10 +2028,14 @@
     <bcf:citekey order="30">cremers2010deviations</bcf:citekey>
     <bcf:citekey order="31">kumar1992behavior</bcf:citekey>
     <bcf:citekey order="32">atilgan2015implied</bcf:citekey>
-    <bcf:citekey order="33">atilgan2015implied</bcf:citekey>
-    <bcf:citekey order="34">atilgan2015implied</bcf:citekey>
-    <bcf:citekey order="35">chang2018implied</bcf:citekey>
-    <bcf:citekey order="36">atilgan2015implied</bcf:citekey>
+    <bcf:citekey order="33">baker2006investor</bcf:citekey>
+    <bcf:citekey order="34">easley1998option</bcf:citekey>
+    <bcf:citekey order="35">cremers2010deviations</bcf:citekey>
+    <bcf:citekey order="36">driessen2012option</bcf:citekey>
+    <bcf:citekey order="37">chang2018implied</bcf:citekey>
+    <bcf:citekey order="38">atilgan2015implied</bcf:citekey>
+    <bcf:citekey order="39">chang2018implied</bcf:citekey>
+    <bcf:citekey order="40">atilgan2015implied</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

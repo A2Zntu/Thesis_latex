@@ -17,13 +17,19 @@ In summary, these results are consistent with \textcite{baker2006investor}, whic
 
 Myriad studies lile \textcite{easley1998option}, \textcite{cremers2010deviations}, \textcite{driessen2012option} indicated that the predictability will be stringer in options with higher liquidity. In this section, we also follow the method in \textcite{chang2018implied} to segregate the high option liquidity periods and others. We use the S\&P 500 option daily trading volume to represent the option liquidity, which is available on WRDS. Furhermore, we define a dummy variable that is equal to one for a given trading day if the option volume is greater than its $90^{th}$ percentile over the sample period, and 0 otherwise. Hence, follow prior studies, VSPLUS is denoted as CPIV if dummy variable is equal to one and 0 otherwise, while VSMINUS is denoted as CPIV of dummy variable is equal to zero and 0 otherwise. If the information in CPIV to option liquidity is instrumental in the predictive power of the CPIV on index returns, then $\beta _{1}$ is expected to be positive and larger than $\beta _{2}$.
 
-Panel A in \autoref{table:Volume} describes the regression results on the effect of option liquidity. All the coefficients of VSPLUS is positive and greater than the coefficients of VSMINUS. Moreover, compared with the original contemporaneous \autoref{eq:contem}, there are five intervals with significant positive coefficients, and 3.4 basis higher than original coefficents in average. 
+\autoref{table:Volume} describes the regression results on the effect of option liquidity. All the coefficients of VSPLUS is positive and greater than the coefficients of VSMINUS. Moreover, compared with the original contemporaneous \autoref{eq:contem}, there are five intervals with significant positive coefficients, and 3.4 basis higher than original coefficents in average. 
 
 In summary, we find out the predictability of contemporaneous index return increases with option liquidity. These results are in line with previous literature. 
 
 \subsection{Economic States}
 
+We also test regressions on the effect of economic states. The economic states are segregated according to NBER business cycles. We believe that during recession time, the stock market liquidity is relatively lower than the option market liquidity since there are short-sell constraints in the stock market. Moreover, our underlying -- SPX is not available to short while the economic is going down. In contrast, investors could buy put option to hedge the risk during recession. Therefore, we believe that the results of regressions given segregated economic states would be consistent with the sentiment measures and option liquidity.  
 
+We utilize economic states from NBER to set apart the overall sample. Then, we define a dummy variable that is equal to one for a given trading day if the economic state is recession, and 0 if it is expansion. Hence, follow prior studies, VSPLUS is denoted as CPIV if dummy variable is equal to one and 0 otherwise, while VSMINUS is denoted as CPIV of dummy variable is equal to zero and 0 otherwise. If the information in CPIV to economic is critical in the predictive power of the CPIV on index returns, then $\beta _{1}$ is expected to be positive and larger than $\beta _{2}$.
+
+\autoref{table:EcoStates} describes the regression results on the effect of economic states. All the coefficients of VSPLUS is positive and greater than the coefficients of VSMINUS. Moreover, compared with the original contemporaneous \autoref{eq:contem}, there are seven intervals with significant positive coefficients, including open intervals, mid intervals and close intervals. 
+
+In a nutshell, we suggest that during the recession, prices and volume from option market are much more informational toward the index market since the consumer sentimenst and option liquidity have high correlations with economic states. 
 
 
 
@@ -50,7 +56,7 @@ In summary, we find out the predictability of contemporaneous index return incre
 \medskip
 
 {\scriptsize 
-This table reports from time-series predictive regressions of contemporaneous return of the S\&P 500 index on call-put implied volatility (CPIU), and macroeconomic varibles. Panel A focuses on Baker and Wurgler (BW) sentiment index, while panel B centers around University of Michigan Consumer (UOM) Sentiment Index. We take the definition of VSPLUS and VSMINUS in \textcite{atilgan2015implied} as reference. A dummy variable is equal to one if the consumer sentiment index is greater than the 90th percentile or less than the 10th percentile among the observed consumer sentiment values over the sample period. Therefore, VSPLUS is equal to the CPIV if dummy variable is equal to one and 0 otherwise. VSMINUS is equal to the CPIV if dummy variable is equal to zero and 0 otherwise. DEF explicates the change in the difference between the yeilds on BAA- and AAA-rated coporate bonds. TERM expounds the difference between the yeilds on the 10-year Treasury bond and one-month Treasury bill. All the t statistics in parathesis are Newey-West t statistics adjusted. All variable values are in percentage format.  
+This table reports from time-series predictive regressions of contemporaneous return of the S\&P 500 index on call-put implied volatility (CPIV), and macroeconomic varibles given the effect of investors sentiment. Panel A focuses on Baker and Wurgler (BW) sentiment index, while panel B centers around University of Michigan Consumer (UOM) Sentiment Index. We take the definition of VSPLUS and VSMINUS in \textcite{atilgan2015implied} as reference. A dummy variable is equal to one if the consumer sentiment index is greater than the 90th percentile or less than the 10th percentile among the observed consumer sentiment values over the sample period. Therefore, VSPLUS is equal to the CPIV if dummy variable is equal to one and 0 otherwise. VSMINUS is equal to the CPIV if dummy variable is equal to zero and 0 otherwise. DEF explicates the change in the difference between the yeilds on BAA- and AAA-rated coporate bonds. TERM expounds the difference between the yeilds on the 10-year Treasury bond and one-month Treasury bill. All the t statistics in parathesis are Newey-West t statistics adjusted. All variable values are in percentage format.  
 }
 \medskip
 
@@ -141,9 +147,10 @@ TERM            & -0.02    & 0.00    & 0.00    & 0.02    & 0.02    & 0.02    & 0
 \medskip
 \begin{spacing}{1.1}
 {\scriptsize  
-This table reports from time-series predictive regressions of contemporaneous return of the S\&P 500 index on call-put implied volatility (CPIU), and macroeconomic varibles. To estimate the option liquidity, we employ option volume as a proxy refering to \textcite{chang2018implied}. Then, we take the definition of VSPLUS and VSMINUS in \textcite{atilgan2015implied} as reference. A dummy variable is equal to one if the option volume is greater than the 90th percentile among the observed option volume over the sample period. Therefore, VSPLUS is equal to the CPIV if dummy variable is equal to one and 0 otherwise. VSMINUS is equal to the CPIV if dummy variable is equal to zero and 0 otherwise. DEF explicates the change in the difference between the yeilds on BAA- and AAA-rated coporate bonds. TERM expounds the difference between the yeilds on the 10-year Treasury bond and one-month Treasury bill. All the t statistics in parathesis are Newey-West t statistics adjusted. All variable values are in percentage format. 
+This table reports from time-series predictive regressions of contemporaneous return of the S\&P 500 index on call-put implied volatility (CPIV), and macroeconomic varibles given the effect of option liquidity. To estimate the option liquidity, we employ option volume as a proxy refering to \textcite{chang2018implied}. Then, we take the definition of VSPLUS and VSMINUS in \textcite{atilgan2015implied} as reference. A dummy variable is equal to one if the option volume is greater than the 90th percentile among the observed option volume over the sample period. Therefore, VSPLUS is equal to the CPIV if dummy variable is equal to one and 0 otherwise. VSMINUS is equal to the CPIV if dummy variable is equal to zero and 0 otherwise. DEF explicates the change in the difference between the yeilds on BAA- and AAA-rated coporate bonds. TERM expounds the difference between the yeilds on the 10-year Treasury bond and one-month Treasury bill. All the t statistics in parathesis are Newey-West t statistics adjusted. All variable values are in percentage format. 
 }
 \end{spacing}
+\medskip
 \medskip
 \tiny
 \centering
@@ -162,7 +169,64 @@ DEF             & 0.02    & -0.07   & -0.09   & -0.07   & -0.07   & -0.10   & -0
 TERM            & -0.03   & 0.00    & 0.00    & 0.01    & 0.02    & 0.01    & 0.02    & 0.01    & 0.02    & 0.02    & 0.03    & 0.04    & 0.03    & 0.00    \\
                 & (-1.37) & (-0.06) & (0.10)  & (0.57)  & (0.80)  & (0.57)  & (0.80)  & (0.37)  & (0.75)  & (1.07)  & (1.47)  & (1.62)  & (1.26)  & (-0.01) \\
                 &         &         &         &         &         &         &         &         &         &         &         &         &         &         \\
-Adj $R^{2}$ & 26.39   & 0.32    & 0.27    & 0.26    & 0.26    & 0.53    & 0.25    & 0.60    & 0.30    & 0.63    & 0.53    & 0.68    & 1.38    & 1.69   \\
+Adj $R^{2}$ & 25.00   & 0.24    & 0.27    & 0.30    & 0.27    & 0.55    & 0.40    & 0.85    & 0.59    & 0.55    & 0.49    & 0.65    & 1.13    & 1.48   \\
+
+\bottomrule
+\end{tabular}
+
+\begin{tablenotes}
+%\multicolumn{4}{l}{\footnotesize \textit{Newey-West t} statistics in parentheses} \\
+%\multicolumn{4}{l}{\footnotesize * $p < 0.10$, ** $p < 0.05$, *** $p < 0.01$} \\
+\item
+\item[***]Significant at the 1 percent level.    
+\item[**]Significant at the 5 percent level.   
+\item[*]Significant at the 10 percent level.
+\end{tablenotes}
+
+
+\end{threeparttable}
+
+\end{table}
+
+
+
+%====================================================================
+%                        Tables 12
+%====================================================================
+
+
+
+\begin{table}[h]
+
+\caption{Regression Results: Index Return Predictability on the Effects of Economic States}\label{table:EcoStates}
+\begin{threeparttable}
+
+\medskip
+\begin{spacing}{1.1}
+{\scriptsize  
+This table reports from time-series predictive regressions of contemporaneous return of the S\&P 500 index on call-put implied volatility (CPIV), and macroeconomic varibles given the effect of economic states. The economic states are segregated according to NBER business cycles. Then, we take the definition of VSPLUS and VSMINUS in \textcite{atilgan2015implied} as reference. A dummy variable is equal to one if the economic state is recession, and 0 if it is expansion. Therefore, VSPLUS is equal to the CPIV if dummy variable is equal to one and 0 otherwise. VSMINUS is equal to the CPIV if dummy variable is equal to zero and 0 otherwise. DEF explicates the change in the difference between the yeilds on BAA- and AAA-rated coporate bonds. TERM expounds the difference between the yeilds on the 10-year Treasury bond and one-month Treasury bill. All the t statistics in parathesis are Newey-West t statistics adjusted. All variable values are in percentage format. 
+}
+\end{spacing}
+\medskip
+\medskip
+\tiny
+\centering
+\begin{tabular}{ccccccccccccccc}
+\toprule
+
+          & 08:30   & 09:00   & 09:30   & 10:00   & 10:30   & 11:00   & 11:30   & 12:00   & 12:30   & 13:00   & 13:30   & 14:00   & 14:30   & 15:00   \\ \midrule
+Intercept & 0.27*** & 0.17    & 0.19*   & 0.19    & 0.16    & 0.24**  & 0.16    & 0.29**  & 0.21    & 0.20    & 0.15    & 0.17    & 0.28    & 0.31**  \\
+          & (3.03)  & (1.59)  & (1.72)  & (1.64)  & (1.42)  & (1.97)  & (1.36)  & (2.29)  & (1.55)  & (1.51)  & (1.12)  & (1.18)  & (1.94)  & (2.04)  \\
+VSPLUS    & 9.75*** & 2.94    & 2.73    & 3.46    & 2.96    & 5.04**  & 2.44    & 6.89*** & 4.97*   & 4.25*   & 2.83    & 4.34*   & 6.79**  & 1.19    \\
+          & (13.61) & (1.51)  & (1.46)  & (1.55)  & (1.30)  & (1.96)  & (0.97)  & (2.56)  & (1.70)  & (1.69)  & (1.10)  & (1.69)  & (2.25)  & (0.38)  \\
+VSMINUS   & 7.09*** & 0.65    & 0.49    & 1.22    & 0.86    & 2.04    & -0.39   & 2.84    & 1.39    & 1.39    & 0.30    & 1.59    & 3.56    & -1.60   \\
+          & (12.99) & (0.39)  & (0.29)  & (0.70)  & (0.48)  & (1.08)  & (-0.19) & (1.37)  & (0.64)  & (0.71)  & (0.15)  & (0.75)  & (1.43)  & (-0.60) \\
+DEF       & 0.02    & -0.07   & -0.09   & -0.07   & -0.07   & -0.10   & -0.11   & -0.09   & -0.08   & -0.10   & -0.11   & -0.10   & -0.13   & -0.29   \\
+          & (0.30)  & (-0.73) & (-0.79) & (-0.69) & (-0.67) & (-0.82) & (-0.89) & (-0.64) & (-0.61) & (-0.77) & (-0.85) & (-0.69) & (-0.87) & (-1.78) \\
+TERM      & -0.03   & 0.00    & 0.00    & 0.01    & 0.02    & 0.01    & 0.02    & 0.01    & 0.02    & 0.02    & 0.03    & 0.04    & 0.03    & 0.00    \\
+          & (-1.37) & (-0.06) & (0.10)  & (0.57)  & (0.80)  & (0.57)  & (0.80)  & (0.37)  & (0.75)  & (1.07)  & (1.47)  & (1.62)  & (1.26)  & (-0.01) \\
+          &         &         &         &         &         &         &         &         &         &         &         &         &         &         \\
+Adj. $R^{2}$    & 24.79   & 0.18    & 0.21    & 0.19    & 0.21    & 0.53    & 0.34    & 0.73    & 0.49    & 0.57    & 0.50    & 0.56    & 0.97    & 1.35     \\
 
 \bottomrule
 \end{tabular}

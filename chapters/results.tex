@@ -11,13 +11,11 @@ In this subsection, we discuss the relationship between CPIV and index returns i
 
 In panel A, the CPIV coefficients are all positive and this outcome is aligned with \textcite{cremers2010deviations} which proves the evidence for a significant positive link between implied volatility spread and expected returns. To be more specific, $CPIV_{08:30}$ and $CPIV_{12:00}$ are significant in 1\% and 10\% level respectively. However, other intervals are not significant enough under 10\% level. The result validate our first hypothesis: The open and mid intervals may also contain important information toward index returns. Apart from that, $CPIV_{08:30}$ has the largest coeffecient 8.33\footnote{The value is shown in percentage format.} (t-statistic 17.84), we believe that most trading information is incoporated into the first interval.
 
-In panel B, we test the next day index return on CPIV and other control variables to see whether the information spillover from the option market to the next-day index market. Surprisingly, none of them are significant enough and not all of them are positive. According to \textcite{atilgan2015implied}, they assert the volatilty skewness of S\&P index option may cause spillover effect to index market. We find out the implied volatility spread has no predictability on aggregate index returns in one-day horizon.
+In panel B, we test the next day index return on CPIV and other control variables to see whether the information spillover from the option market to the next-day index market. Surprisingly, none of them are significant enough and not all of them are positive. According to \textcite{atilgan2015implied}, they assert the volatilty skewness of S\&P index option may cause spillover effect to index market. We find out the implied volatility spread has no predictability on aggregate index returns in one-day horizon. This is slightly different from \textcite{atilgan2015implied}, since we choose implied volatilty spreads rather than volatilty skewness as the measures. The implied volatility spreads absorb all possible option pairs information while volatilty skewness only include the information from out-of-money (OTM) put options and at-the-money (ATM) call options. Briefly, the implied volatilty spreads may be too noisy in forcasting future index returns.  
 
 On intra-day frequency, we also test the predictability on culumlated half hour index returns in different horizons. We only take $CPIV_{08:30}$ and $CPIV_{12:00}$ as independent variables since they are the only variables significant on contemporaneous frequency. However, the results are completely not the same way. From \autoref{table:regression4}, the coefficients of $CPIV_{08:30}$ range from 5.63 to 6.57, implying myriad economic significance. The adjusted $R^{2}$ of $CPIV_{08:30}$ range from 50.19\% to 19.17\% as hours decay. The results is consistent with our Hypothesis 2: The first 5-minutes CPIV has predictability on intra-day index return during the rest of the trading day. On the contrary, we did not find prediction power on $CPIV_{12:30}$ for any k. In this paragraph, we demonstrate that the first 5-minutes interval keep considerable information compared to other intervals, and this information would be incorporated into index market by hours -- not by days. Our emperical results are sligtly different from \textcite{cremers2010deviations}, but similar to \textcite{kumar1992behavior}. 
    
-\subsection{Robustness}
-In this paragraph, we employ above regressions on SPX option trade data. The descriptive statistics of trade data are displyed in \autoref{table:stats_of_CPIV_2}, we can also see that there is an U-shaped on CPIV mean term.   
-   
+
 
 
 
@@ -78,7 +76,7 @@ Adj. $R^{2}$  & 0.0473     & 0.3368     & 0.0853     & 0.3402     \\
 
 \begin{table}[h]
 
-\caption{Regression Results: Index Return and CPIV}\label{table:regression2}
+\caption{Regression Results: Index Return Predictability on CPIV of Quote Data}\label{table:regression2}
 \begin{threeparttable}
 
 \medskip
@@ -162,7 +160,7 @@ Adj. $R^{2}$     & 0.19    & 0.02    & 0.10    & 0.08    & 0.02    & 0.03   & 0.
 
 \begin{table}[h]
 
-\caption{Regression Results:  Intra-day Index Return and CPIV}\label{table:regression4}
+\caption{Regression Results: Intra-day Index Return Predictability on CPIV of Quote Data}\label{table:regression4}
 \begin{threeparttable}
 
 \medskip
@@ -206,4 +204,87 @@ Adj.$R^{2}$    & 50.19   & 41.65   & 36.43   & 33.14   & 29.80   & 28.79   & 27.
 
 \end{table}
 
+
+%====================================================================
+%                        Tables 9, 10
+%====================================================================
+
+
+%\begin{table}[h]
+%
+%\caption{Regression Results: Index Return Predictability on CPIV of Trade Data}\label{trade_table:regression2}
+%\begin{threeparttable}
+%
+%\medskip
+%
+%{\scriptsize 
+%This table reports from time-series predictive regressions of daily return of the S\&P 500 index on call-put implied volatility (CPIV), and macroeconomic varibles. Panel A presents the summary statistics for contemporaneous index return regression. Panel B presents summary statistics for one-day ahead index return regression. CPIV elucidates the interval implied volatility spreads.DEF explicates the change in the difference between the yeilds on BAA- and AAA-rated coporate bonds. TERM expounds the difference between the yeilds on the 10-year Treasury bond and one-month Treasury bill. All the t statistics in parathesis are Newey-West t statistics adjusted. All variable values are in percentage format.  
+%}
+%\medskip
+%
+%\begin{subtable}[t]{\linewidth}
+%
+%\caption{Panel A: The Contemporaneous Index Return Regression }
+%\tiny
+%\begin{tabular}{ccccccccccccccc}
+%\toprule
+%             & 08:30   & 09:00   & 09:30   & 10:00   & 10:30   & 11:00   & 11:30   & 12:00   & 12:30   & 13:00   & 13:30   & 14:00   & 14:30   & 15:00   \\ \midrule
+%Intercept       & 0.22    & 0.01    & -0.04   & 0.03    & -0.03   & 0.03    & 0.01    & 0.01    & 0.00    & 0.05    & 0.04    & 0.01    & -0.05   & 0.01    \\
+%             & (2.48)  & (0.06)  & (-0.39) & (0.35)  & (-0.31) & (0.30)  & (0.12)  & (0.05)  & (-0.04) & (0.43)  & (0.37)  & (0.10)  & (-0.42) & (0.10)  \\
+%CPIV            & 16.01   & -3.41   & -6.36   & -2.28   & -5.98   & -3.61   & -6.48   & -4.19   & -2.39   & 0.13    & -0.13   & -1.07   & -6.13   & -3.07   \\
+%             & (15.91) & (-0.98) & (-2.21) & (-0.98) & (-4.17) & (-1.46) & (-2.00) & (-1.53) & (-1.30) & (0.04)  & (-0.04) & (-0.33) & (-1.95) & (-1.36) \\
+%DEF             & 0.05    & -0.08   & -0.09   & -0.09   & -0.09   & -0.11   & -0.13   & -0.07   & -0.07   & -0.06   & -0.08   & -0.06   & -0.10   & -0.09   \\
+%             & (0.63)  & (-0.82) & (-0.97) & (-0.98) & (-1.01) & (-1.15) & (-1.32) & (-0.82) & (-0.67) & (-0.65) & (-0.87) & (-0.60) & (-1.04) & (-0.97) \\
+%TERM            & 0.01    & 0.02    & 0.02    & 0.02    & 0.02    & 0.02    & 0.01    & 0.01    & 0.02    & 0.02    & 0.03    & 0.02    & 0.02    & 0.03    \\
+%             & (0.50)  & (0.89)  & (0.95)  & (1.04)  & (0.87)  & (0.85)  & (0.48)  & (0.47)  & (0.95)  & (0.96)  & (1.21)  & (0.98)  & (1.09)  & (1.25)  \\
+%Adj. $R^{2}$ & 26.39   & 0.32    & 0.27    & 0.26    & 0.26    & 0.53    & 0.25    & 0.60    & 0.30    & 0.63    & 0.53    & 0.68    & 1.38    & 1.69     \\
+%\bottomrule
+%\end{tabular}
+%
+%\begin{tablenotes}
+%%\multicolumn{4}{l}{\footnotesize \textit{Newey-West t} statistics in parentheses} \\
+%%\multicolumn{4}{l}{\footnotesize * $p < 0.10$, ** $p < 0.05$, *** $p < 0.01$} \\
+%\item
+%\item[***]Significant at the 1 percent level.    
+%\item[**]Significant at the 5 percent level.   
+%\item[*]Significant at the 10 percent level.
+%\end{tablenotes}
+%\end{subtable}
+%
+%\medskip
+%\begin{subtable}[t]{\linewidth}
+%
+%\caption{Panel B: The One-Day ahead Index Return Regression }
+%\tiny
+%\begin{tabular}{ccccccccccccccc}
+%\toprule
+%             & 08:30   & 09:00   & 09:30   & 10:00   & 10:30   & 11:00   & 11:30   & 12:00   & 12:30   & 13:00  & 13:30   & 14:00   & 14:30   & 15:00   \\ \midrule
+%Intercept       & 0.00    & 0.00    & 0.02    & 0.06    & 0.16    & 0.07    & 0.00    & 0.01    & 0.08    & 0.00   & 0.06    & 0.01    & 0.04    & 0.03    \\
+%             & (-0.02) & (0.04)  & (0.19)  & (0.66)  & (1.46)  & (0.68)  & (-0.03) & (0.09)  & (0.74)  & (0.04) & (0.61)  & (0.06)  & (0.37)  & (0.25)  \\
+%CPIV            & -2.19   & -2.85   & -0.64   & 0.70    & 4.65*** & 0.08    & -3.65   & -4.17   & 0.63    & 0.89   & 4.96    & -1.94   & -0.84   & -0.62   \\
+%             & (-1.69) & (-0.91) & (-0.20) & (0.23)  & (2.00)  & (0.03)  & (-1.24) & (-1.26) & (0.61)  & (0.24) & (1.38)  & (-0.97) & (-0.30) & (-0.67) \\
+%DEF             & -0.02   & -0.03   & -0.01   & -0.02   & -0.03   & -0.04   & -0.03   & -0.05   & -0.06   & 0.04   & 0.06    & -0.01   & -0.02   & 0.00    \\
+%             & (-0.18) & (-0.30) & (-0.07) & (-0.23) & (-0.35) & (-0.41) & (-0.34) & (-0.53) & (-0.59) & (0.44) & (0.68)  & (-0.16) & (-0.21) & (0.04)  \\
+%TERM            & 0.00    & 0.00    & 0.00    & 0.00    & -0.01   & 0.00    & 0.00    & 0.00    & 0.01    & 0.00   & 0.00    & 0.01    & 0.00    & 0.00    \\
+%             & (0.21)  & (0.06)  & (0.09)  & (-0.07) & (-0.28) & (-0.17) & (-0.15) & (-0.20) & (0.24)  & (0.07) & (-0.10) & (0.28)  & (-0.13) & (-0.20) \\
+%             &         &         &         &         &         &         &         &         &         &        &         &         &         &         \\
+%Adj. $R^{2}$ & 0.52    & 0.10    & 0.00    & 0.02    & 0.71    & 0.03    & 0.17    & 0.21    & 0.07    & 0.04   & 0.41    & 0.09    & 0.01    & 0.03   \\ 
+%\bottomrule
+%\end{tabular}
+%
+%\begin{tablenotes}
+%%\multicolumn{4}{l}{\footnotesize \textit{Newey-West t} statistics in parentheses} \\
+%%\multicolumn{4}{l}{\footnotesize * $p < 0.10$, ** $p < 0.05$, *** $p < 0.01$} \\
+%\item
+%\item[***]Significant at the 1 percent level.    
+%\item[**]Significant at the 5 percent level.   
+%\item[*]Significant at the 10 percent level.
+%\end{tablenotes}
+%\end{subtable}
+%
+%
+%\end{threeparttable}
+%
+%\end{table}
+%
 

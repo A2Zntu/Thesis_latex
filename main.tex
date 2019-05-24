@@ -1,6 +1,6 @@
 
 \documentclass[oneside,12pt]{article}
-\usepackage[doublespacing]{setspace}
+usepackage[doublespacing]{setspace}
 \usepackage[nomarkers,tablesonly]{endfloat}
 \usepackage[utf8]{inputenc}
 \usepackage{times}
@@ -15,6 +15,7 @@
 \usepackage{booktabs}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
+
 \usepackage{caption}
 \usepackage{indentfirst}
 \usepackage{subcaption}
@@ -30,7 +31,12 @@
 \usepackage[backend=biber, citestyle = authoryear, bibstyle = authoryear, sorting=nty]{biblatex}
 \addbibresource{ref.bib}
 
+\usepackage[UTF8]{ctex}
 
+
+%======================================================================
+%                			Thesis Begin
+%======================================================================
 \Huge
 \title{\textbf{The Predictability of Option Intraday Information On Index Returns}}
 
@@ -41,40 +47,56 @@
 
 \begin{document}
 
-
 \maketitle
 
+\newpage
+\input{chapters/acknowledge}
+
+
+\newpage
 \begin{abstract}
 \centering
-\input{chapters/abstract}
+\input{chapters/abstract-zh}
 \end{abstract}
 
+\newpage
+\begin{abstract}
+\centering
+\input{chapters/abstract-en}
+\end{abstract}
 
+\newpage
+\tableofcontents
+\newpage
+\listoftables
+
+
+\newpage
 \fontsize{13pt}{18pt}\selectfont
 \section{Introduction}\label{ch:Introduction}
 \input{chapters/introduction}
 
 
 \fontsize{13pt}{18pt}\selectfont
-\section{Hypothesis Development}
+\section{Hypothesis Development}\label{ch:Hypothesis}
 \input{chapters/hypothesis}
 
 \fontsize{13pt}{18pt}\selectfont
-\section{Data and Empirical Methodology}
+\section{Data and Empirical Methodology}\label{ch:method}
 \input{chapters/data}
 
 \fontsize{13pt}{18pt}\selectfont
-\section{Empirical Results}
+\section{Empirical Results}\label{ch:results}
 \input{chapters/results}
 
 
 \fontsize{13pt}{18pt}\selectfont
-\section{Information Explanation}
+\section{Information Explanation}\label{ch:info}
 \input{chapters/information}
 
 
 \fontsize{13pt}{18pt}\selectfont
-\section{Conclusion}
+\section{Conclusion}\label{ch:conclusion}
 \input{chapters/conclusion}
 
 

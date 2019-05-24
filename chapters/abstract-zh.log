@@ -1,0 +1,21 @@
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6880 64-bit) (preloaded format=xelatex 2018.12.11)  24 MAY 2019 17:20
+entering extended mode
+**./abstract-zh.tex
+(abstract-zh.tex
+LaTeX2e <2018-04-01> patch level 5
+)
+! Emergency stop.
+<*> ./abstract-zh.tex
+                     
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 5 strings out of 427771
+ 69 string characters out of 3153983
+ 63170 words of memory out of 3000000
+ 4117 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 4i,0n,1p,20b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.

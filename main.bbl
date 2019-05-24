@@ -177,6 +177,44 @@
       \field{pages}{1645\bibrangedash 1680}
       \range{pages}{36}
     \endentry
+    \entry{bali2009volatility}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=5b1c6d2f9eec813d903b7af10e294cb4}{%
+           family={Bali},
+           familyi={B\bibinitperiod},
+           given={Turan\bibnamedelima G},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=77ddc9178fb020efe9fe0e3bf4386c29}{%
+           family={Hovakimian},
+           familyi={H\bibinitperiod},
+           given={Armen},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {INFORMS}%
+      }
+      \strng{namehash}{2888736c968971a84f0a49dfde305f02}
+      \strng{fullhash}{2888736c968971a84f0a49dfde305f02}
+      \strng{bibnamehash}{2888736c968971a84f0a49dfde305f02}
+      \strng{authorbibnamehash}{2888736c968971a84f0a49dfde305f02}
+      \strng{authornamehash}{2888736c968971a84f0a49dfde305f02}
+      \strng{authorfullhash}{2888736c968971a84f0a49dfde305f02}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management Science}
+      \field{number}{11}
+      \field{title}{Volatility spreads and expected stock returns}
+      \field{volume}{55}
+      \field{year}{2009}
+      \field{pages}{1797\bibrangedash 1812}
+      \range{pages}{16}
+    \endentry
     \entry{bergsma2018intraday}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,uniquepart=base,hash=184feda5f795e4a29912938377819826}{%
@@ -346,6 +384,50 @@
       \field{pages}{1235\bibrangedash 1257}
       \range{pages}{23}
     \endentry
+    \entry{chan2002informational}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=07cf5039f5d4386c9375a9246908a352}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Kalok},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1583881809bc4d302cf910ba3418f9a2}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Y\bibnamedelima Peter},
+           giveni={Y\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c5a528a6d0d26c1d3957e0ce6aafe8e0}{%
+           family={Fong},
+           familyi={F\bibinitperiod},
+           given={Wai-Ming},
+           giveni={W\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{cc9e3665cb57ae51051eb3c35f64fae0}
+      \strng{fullhash}{cc9e3665cb57ae51051eb3c35f64fae0}
+      \strng{bibnamehash}{cc9e3665cb57ae51051eb3c35f64fae0}
+      \strng{authorbibnamehash}{cc9e3665cb57ae51051eb3c35f64fae0}
+      \strng{authornamehash}{cc9e3665cb57ae51051eb3c35f64fae0}
+      \strng{authorfullhash}{cc9e3665cb57ae51051eb3c35f64fae0}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Financial Studies}
+      \field{number}{4}
+      \field{title}{The informational role of stock and option volume}
+      \field{volume}{15}
+      \field{year}{2002}
+      \field{pages}{1049\bibrangedash 1075}
+      \range{pages}{27}
+    \endentry
     \entry{chan1993option}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=07cf5039f5d4386c9375a9246908a352}{%
@@ -464,6 +546,88 @@
       \field{year}{2010}
       \field{pages}{335\bibrangedash 367}
       \range{pages}{33}
+    \endentry
+    \entry{doran2010implications}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=90885033065f7fb5bc6da5927fe85a24}{%
+           family={Doran},
+           familyi={D\bibinitperiod},
+           given={James\bibnamedelima S},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2cfc82ac5a33e2fe1f287ba27bc09de5}{%
+           family={Krieger},
+           familyi={K\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{a4b33040b9464734d265e2094ef6f667}
+      \strng{fullhash}{a4b33040b9464734d265e2094ef6f667}
+      \strng{bibnamehash}{a4b33040b9464734d265e2094ef6f667}
+      \strng{authorbibnamehash}{a4b33040b9464734d265e2094ef6f667}
+      \strng{authornamehash}{a4b33040b9464734d265e2094ef6f667}
+      \strng{authorfullhash}{a4b33040b9464734d265e2094ef6f667}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Financial Analysts Journal}
+      \field{number}{1}
+      \field{title}{Implications for asset returns in the implied volatility skew}
+      \field{volume}{66}
+      \field{year}{2010}
+      \field{pages}{65\bibrangedash 76}
+      \range{pages}{12}
+    \endentry
+    \entry{doran2007there}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=90885033065f7fb5bc6da5927fe85a24}{%
+           family={Doran},
+           familyi={D\bibinitperiod},
+           given={James\bibnamedelima S},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ceffa8817e5a8cec75450a4f4e4879ea}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={David\bibnamedelima R},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a033d3cdc2e8579d6c876dbae90fcc5c}{%
+           family={Tarrant},
+           familyi={T\bibinitperiod},
+           given={Brian\bibnamedelima C},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{2f9db48994a3e3e036daee85d9ca1d7a}
+      \strng{fullhash}{2f9db48994a3e3e036daee85d9ca1d7a}
+      \strng{bibnamehash}{2f9db48994a3e3e036daee85d9ca1d7a}
+      \strng{authorbibnamehash}{2f9db48994a3e3e036daee85d9ca1d7a}
+      \strng{authornamehash}{2f9db48994a3e3e036daee85d9ca1d7a}
+      \strng{authorfullhash}{2f9db48994a3e3e036daee85d9ca1d7a}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Futures Markets: Futures, Options, and Other Derivative Products}
+      \field{number}{10}
+      \field{title}{Is there information in the volatility skew?}
+      \field{volume}{27}
+      \field{year}{2007}
+      \field{pages}{921\bibrangedash 959}
+      \range{pages}{39}
     \endentry
     \entry{driessen2012option}{article}{}
       \name{author}{3}{}{%

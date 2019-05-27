@@ -1,6 +1,6 @@
-
+% !TEX program = xelatex
 \documentclass[oneside,12pt]{article}
-usepackage[doublespacing]{setspace}
+\usepackage[doublespacing]{setspace}
 \usepackage[nomarkers,tablesonly]{endfloat}
 \usepackage[utf8]{inputenc}
 \usepackage{times}
@@ -13,8 +13,11 @@ usepackage[doublespacing]{setspace}
 \fancyhead[R]{The Predictability of Option Intraday Information On Index Returns}
 \pagenumbering{arabic}
 \usepackage{booktabs}
+
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
+
+
 
 \usepackage{caption}
 \usepackage{indentfirst}
@@ -24,51 +27,52 @@ usepackage[doublespacing]{setspace}
 \hypersetup{
   colorlinks   = true, %Colours links instead of ugly boxes
   urlcolor     = red, %Colour for external hyperlinks
-  linkcolor    = blue, %Colour of internal links
+  linkcolor    = black, %Colour of internal links
   citecolor   = blue %Colour of citations
 }
+\setlength{\abovecaptionskip}{5pt}
+\setlength{\belowcaptionskip}{10pt}
+
+
 \usepackage{amsmath}
 \usepackage[backend=biber, citestyle = authoryear, bibstyle = authoryear, sorting=nty]{biblatex}
 \addbibresource{ref.bib}
 
-\usepackage[UTF8]{ctex}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+
+\setmainfont{Times New Roman}
+
+\setCJKmainfont{標楷體}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+
 
 
 %======================================================================
 %                			Thesis Begin
 %======================================================================
-\Huge
-\title{\textbf{The Predictability of Option Intraday Information On Index Returns}}
-
-\author{I FAN CHIANG}
-\date{27 April 2019}
-
-
 
 \begin{document}
 
-\maketitle
+
 
 \newpage
 \input{chapters/acknowledge}
 
-
 \newpage
-\begin{abstract}
-\centering
 \input{chapters/abstract-zh}
-\end{abstract}
 
 \newpage
-\begin{abstract}
-\centering
 \input{chapters/abstract-en}
-\end{abstract}
+
 
 \newpage
 \tableofcontents
 \newpage
 \listoftables
+\clearpage
+
 
 
 \newpage

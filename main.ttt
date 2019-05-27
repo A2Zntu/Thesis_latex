@@ -1,5 +1,5 @@
 \begin{table}[h]
-\centering
+
 \caption{Descriptive Statistics of Intraday CPIV of Quote Data}\label{table:stats_of_CPIV}
 \begin{threeparttable}
 
@@ -7,9 +7,10 @@
 
 
 {\scriptsize
-This table shows descriptive statistics for call-put implied volatility (CPIV) of each interval. Panel A presents the summary statsitics for CPIV. Panel B presents the population mean test among CPIV of each interval. In panel A, the first row represents all intervals.  \# Pos. CPIV is the amount of CPIV above zero, where \# Neg. CPIV is the amount of CPIV below zero. Nan Value Rate refers to the rate that CPIV of interval is blank due to the reasons like the option prices are out of boundary, or the maturity are not satisfied with the rules, etc. In Panel B, the first row and column represent all intervals. The values in the table convey the p-value of population mean test between each interval.
+This table shows descriptive statistics for call-put implied volatility (CPIV) of each interval. Panel A presents the summary statistics for CPIV. Panel B presents the population means test among CPIV of each interval. In panel A, the first row represents all intervals.  \# Pos. CPIV is the amount of CPIV above zero, where \# Neg. CPIV is the amount of CPIV below zero. Nan Value Rate refers to the rate that CPIV is blank during the sample period due to the reasons like the option prices are out of the boundary, or the maturity is not satisfied with the rules, etc. In Panel B, the first row and column represent all 14 intervals. The values in the table convey the p-value of population mean test between each interval.
 }
 \medskip
+
 \begin{subtable}[t]{\linewidth}
 
 \caption{Panel A: The Descriptive Statistics of CPIV on Quote Data }
@@ -81,7 +82,7 @@ Nan Value Rate(\%) & 3.8   & 9.1   & 16.8  & 19.9  & 22.1  & 24.5  & 26.1  & 27.
 \medskip
 
 {\scriptsize
-This table shows descriptive statistics for call-put implied volatility (CPIV) of each interval. Panel A presents the summary statsitics for CPIV. Panel B presents the population mean test among CPIV of each interval. In panel A, the first row represents all intervals.  \# Pos. CPIV is the amount of CPIV above zero, where \# Neg. CPIV is the amount of CPIV below zero. Nan Value Rate refers to the rate that CPIV of interval is blank due to the reasons like the option prices are out of boundary, or the maturity are not satisfied with the rules, etc. In Panel B, the first row and column represent all intervals. the values in the table convey the p-value of population mean test between each interval.
+This table shows descriptive statistics for call-put implied volatility (CPIV) of each interval. Panel A presents the summary statistics for CPIV. Panel B presents the population means test among CPIV of each interval. In panel A, the first row represents all intervals.  \# Pos. CPIV is the amount of CPIV above zero, where \# Neg. CPIV is the amount of CPIV below zero. Nan Value Rate refers to the rate that CPIV is blank during the sample period due to the reasons like the option prices are out of the boundary, or the maturity is not satisfied with the rules, etc. In Panel B, the first row and column represent all 14 intervals. The values in the table convey the p-value of population mean test between each interval.
 }
 \medskip
 
@@ -163,8 +164,7 @@ Nan Value Rate(\%) & 1.52   & 0.47   & 0.98   & 1.66   & 3.22   & 4.59   & 7.08 
 \medskip
 
 {\scriptsize
-This table shows the regression results of call-put implied volatility (CPIV) on moneyness, time non-synchronization, maturity with intervals fixed effect.The CPIV term and moneyness term are in absolute form due to the opposite sign of deviation may eliminate the effect of each other. TimeDiff represents time non-synchronization. Moneyness stands for the level of divergence between the underlying price and the excersie price. Maturity symbolizes the maturity date. As
-for Interval F.E., we control the intervals effect. All the t statistics in parathesis are Newey-West t statistics adjusted.
+This table shows the regression results of call-put implied volatility (CPIV) on moneyness, time non-synchronization, maturity with intervals fixed effect. The $CPIV$ term and moneyness term are in absolute form because we care about the level of deviations in put-call parity rather than the direction of deviations. $TimeDiff$ represents time non-synchronization. $Moneyness$ stands for the level of divergence between the underlying price and the exercise price. $Maturity$ symbolizes the maturity date. As for Interval F.E., we control the effect of the intervals. All the t statistics in parathesis are Newey-West t statistics adjusted.
 }
 \medskip
 \small
@@ -208,7 +208,7 @@ Adj. $R^{2}$  & 0.0473     & 0.3368     & 0.0853     & 0.3402     \\
 \medskip
 
 {\scriptsize
-This table reports from time-series predictive regressions of daily return of the S\&P 500 index on call-put implied volatility (CPIV), and macroeconomic varibles. Panel A presents the summary statistics for contemporaneous index return regression. Panel B presents summary statistics for one-day ahead index return regression. CPIV elucidates the interval implied volatility spreads.DEF explicates the change in the difference between the yeilds on BAA- and AAA-rated coporate bonds. TERM expounds the difference between the yeilds on the 10-year Treasury bond and one-month Treasury bill. All the t statistics in parathesis are Newey-West t statistics adjusted. All variable values are in percentage format.
+This table reports from time-series predictive regressions of the daily return of the S\&P 500 index on call-put implied volatility (CPIV), and macroeconomic variables. Panel A presents the summary statistics for contemporaneous index returns regression. Panel B presents summary statistics for one-day ahead index returns regression. $CPIV$ elucidates the interval implied volatility spreads. $DEF$ explicates the change in the difference between the yields on BAA- and AAA-rated corporate bonds. $TERM$ expounds the difference between the yields on the 10-year Treasury bond and one-month Treasury bill. All the t statistics in parathesis are Newey-West t statistics adjusted. All variable values are in a percentage format.
 }
 \medskip
 
@@ -287,7 +287,7 @@ Adj. $R^{2}$     & 0.19    & 0.02    & 0.10    & 0.08    & 0.02    & 0.03   & 0.
 \medskip
 \begin{spacing}{1.1}
 {\scriptsize
-This table records from time-series predictive regressions of intra-day half-hour return of the S\&P 500 index on call-put implied volatility (CPIV), and macroeconomic varibles. The independent varible is $CPIV_{08:30}$. DEF explicates the change in the difference between the yeilds on BAA- and AAA-rated coporate bonds. TERM expounds the difference between the yeilds on the 10-year Treasury bond and one-month Treasury bill. $K$ means k of half-hour ahead cumulative returns. For example, k = 1 means the cumulative returns from 08:30 to 09:00, k = 2 means the cumulative returns from 08:30 to 09:30, and so on and so forth. All the t statistics in parathesis are Newey-West t statistics adjusted. All variable values are in percentage format.
+This table records from time-series predictive regressions of intra-day half-hour return of the S\&P 500 index on call-put implied volatility (CPIV), and macroeconomic variables. The independent variable is $CPIV_{08:30}$. $DEF$ explicates the change in the difference between the yields on BAA- and AAA-rated corporate bonds. $TERM$ expounds the difference between the yields on the 10-year Treasury bond and one-month Treasury bill. $K$ means $k$ of half-hour ahead cumulative returns. For example, $k$ = 1 means the cumulative returns from 08:30 to 09:00, $k$ = 2 means the cumulative returns from 08:30 to 09:30, and so on and so forth. All the t statistics in parathesis are Newey-West t statistics adjusted. All variable values are in a percentage format.
 }
 \end{spacing}
 \medskip
@@ -334,7 +334,7 @@ Adj.$R^{2}$    & 50.19   & 41.65   & 36.43   & 33.14   & 29.80   & 28.79   & 27.
 \medskip
 
 {\scriptsize
-This table reports from time-series predictive regressions of contemporaneous return of the S\&P 500 index on call-put implied volatility (CPIV), and macroeconomic varibles given the effect of investors sentiment. Panel A focuses on Baker and Wurgler (BW) sentiment index, while panel B centers around University of Michigan Consumer (UOM) Sentiment Index. We take the definition of VSPLUS and VSMINUS in \textcite{atilgan2015implied} as reference. A dummy variable is equal to one if the consumer sentiment index is greater than the 90th percentile or less than the 10th percentile among the observed consumer sentiment values over the sample period. Therefore, VSPLUS is equal to the CPIV if dummy variable is equal to one and 0 otherwise. VSMINUS is equal to the CPIV if dummy variable is equal to zero and 0 otherwise. DEF explicates the change in the difference between the yeilds on BAA- and AAA-rated coporate bonds. TERM expounds the difference between the yeilds on the 10-year Treasury bond and one-month Treasury bill. All the t statistics in parathesis are Newey-West t statistics adjusted. All variable values are in percentage format.
+This table reports from time-series predictive regressions of contemporaneous return of the S\&P 500 index on call-put implied volatility (CPIV), and macroeconomic variables given the effect of investors sentiment. Panel A focuses on Baker and Wurgler (BW) sentiment index, while panel B centers around the University of Michigan Consumer (UOM) Sentiment Index. We take the definition of $VSPLUS$ and $VSMINUS$ in \textcite{atilgan2015implied} as a reference. A dummy variable is equal to one if the consumer sentiment index is greater than the 90th percentile or less than the 10th percentile among the observed consumer sentiment values over the sample period. Therefore, $VSPLUS$ is equal to the CPIV if dummy variable is equal to one and 0 otherwise. $VSMINUS$ is equal to the CPIV if dummy variable is equal to zero and 0 otherwise. $DEF$ explicates the change in the difference between the yields on BAA- and AAA-rated corporate bonds. $TERM$ expounds the difference between the yields on the 10-year Treasury bond and one-month Treasury bill. All the t statistics in parathesis are Newey-West t statistics adjusted. All variable values are in a percentage format.
 }
 \medskip
 
@@ -412,13 +412,13 @@ TERM            & -0.02    & 0.00    & 0.00    & 0.02    & 0.02    & 0.02    & 0
  
 \begin{table}[h]
 
-\caption{Regression Results: Index Return Predictability on the Effects of Option Liquidity}\label{table:Volume}
+\caption{Regression Results: Index Returns Predictability on the Effects of Option Liquidity}\label{table:Volume}
 \begin{threeparttable}
 
 \medskip
 \begin{spacing}{1.1}
 {\scriptsize
-This table reports from time-series predictive regressions of contemporaneous return of the S\&P 500 index on call-put implied volatility (CPIV), and macroeconomic varibles given the effect of option liquidity. To estimate the option liquidity, we employ option volume as a proxy refering to \textcite{chang2018implied}. Then, we take the definition of VSPLUS and VSMINUS in \textcite{atilgan2015implied} as reference. A dummy variable is equal to one if the option volume is greater than the 90th percentile among the observed option volume over the sample period. Therefore, VSPLUS is equal to the CPIV if dummy variable is equal to one and 0 otherwise. VSMINUS is equal to the CPIV if dummy variable is equal to zero and 0 otherwise. DEF explicates the change in the difference between the yeilds on BAA- and AAA-rated coporate bonds. TERM expounds the difference between the yeilds on the 10-year Treasury bond and one-month Treasury bill. All the t statistics in parathesis are Newey-West t statistics adjusted. All variable values are in percentage format.
+This table reports from time-series predictive regressions of contemporaneous return of the S\&P 500 index on call-put implied volatility (CPIV), and macroeconomic variables given the effect of option liquidity. To estimate the option liquidity, we employ option volume as a proxy referring to \textcite{chang2018implied}. Then, we take the definition of $VSPLUS$ and $VSMINUS$ in \textcite{atilgan2015implied} as a reference. A dummy variable is equal to one if the options volume is greater than the 90th percentile among the observed option volume over the sample period. Therefore, $VSPLUS$ is equal to the CPIV if dummy variable is equal to one and 0 otherwise. $VSMINUS$ is equal to the CPIV if dummy variable is equal to zero and 0 otherwise. $DEF$ explicates the change in the difference between the yields on BAA- and AAA-rated corporate bonds. $TERM$ expounds the difference between the yields on the 10-year Treasury bond and one-month Treasury bill. All the t statistics in parathesis are Newey-West t statistics adjusted. All variable values are in a percentage format.
 }
 \end{spacing}
 \medskip
@@ -462,13 +462,13 @@ Adj $R^{2}$ & 25.00   & 0.24    & 0.27    & 0.30    & 0.27    & 0.55    & 0.40  
  
 \begin{table}[h]
 
-\caption{Regression Results: Index Return Predictability on the Effects of Economic States}\label{table:EcoStates}
+\caption{Regression Results: Index Returns Predictability on the Effects of Economic States}\label{table:EcoStates}
 \begin{threeparttable}
 
 \medskip
 \begin{spacing}{1.1}
 {\scriptsize
-This table reports from time-series predictive regressions of contemporaneous return of the S\&P 500 index on call-put implied volatility (CPIV), and macroeconomic varibles given the effect of economic states. The economic states are segregated according to NBER business cycles. Then, we take the definition of VSPLUS and VSMINUS in \textcite{atilgan2015implied} as reference. A dummy variable is equal to one if the economic state is recession, and 0 if it is expansion. Therefore, VSPLUS is equal to the CPIV if dummy variable is equal to one and 0 otherwise. VSMINUS is equal to the CPIV if dummy variable is equal to zero and 0 otherwise. DEF explicates the change in the difference between the yeilds on BAA- and AAA-rated coporate bonds. TERM expounds the difference between the yeilds on the 10-year Treasury bond and one-month Treasury bill. All the t statistics in parathesis are Newey-West t statistics adjusted. All variable values are in percentage format.
+This table reports from time-series predictive regressions of contemporaneous return of the S\&P 500 index on call-put implied volatility (CPIV), and macroeconomic variables given the effect of economic states. The economic states are segregated according to NBER business cycles. Then, we take the definition of $VSPLUS$ and $VSMINUS$ in \textcite{atilgan2015implied} as a reference. A dummy variable is equal to one if the economic state in recession, and 0 if it is expansion. Therefore, $VSPLUS$ is equal to the CPIV if dummy variable is equal to one and 0 otherwise. $VSMINUS$ is equal to the CPIV if dummy variable is equal to zero and 0 otherwise. $DEF$ explicates the change in the difference between the yields on BAA- and AAA-rated corporate bonds. $TERM $expounds the difference between the yields on the 10-year Treasury bond and one-month Treasury bill. All the t statistics in parathesis are Newey-West t statistics adjusted. All variable values are in a percentage format.
 }
 \end{spacing}
 \medskip

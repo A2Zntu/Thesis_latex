@@ -1,25 +1,39 @@
 % !TEX program = xelatex
-\documentclass[oneside,12pt]{article}
+\documentclass[a4paper, oneside,12pt]{article}
 \usepackage[doublespacing]{setspace}
-\usepackage[nomarkers,tablesonly]{endfloat}
 \usepackage[utf8]{inputenc}
 \usepackage{times}
 \usepackage{graphicx}
 \graphicspath{{images/}}
-\usepackage[a4paper, width = 150mm, top = 25mm, bottom = 25mm]{geometry}
+\usepackage[width = 150mm, top = 25mm, bottom = 25mm]{geometry}
 \usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhead{}
-\fancyhead[R]{The Predictability of Option Intraday Information On Index Returns}
+%\pagestyle{fancy}
+%\fancyhead{}
+%\fancyhead[R]{The Relation between Intraday Implied Volatility Spreads and Index Returns}
 \pagenumbering{arabic}
 \usepackage{booktabs}
+\usepackage{caption}
+\usepackage{tabularx}
 
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
 
+%調整Table
+\usepackage{adjustbox}
+\usepackage{lscape}
+\usepackage{typearea}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{tikz}
+\usepackage{ltxtable}
+
+%把Table放在最後
+%\usepackage{float}
+%\floatplacement{table}{H}
+\usepackage[nomarkers,nolists, tablesonly]{endfloat}
 
 
-\usepackage{caption}
+
 \usepackage{indentfirst}
 \usepackage{subcaption}
 \usepackage[flushleft]{threeparttable}
@@ -33,11 +47,12 @@
 \setlength{\abovecaptionskip}{5pt}
 \setlength{\belowcaptionskip}{10pt}
 
-
+%調整Bib
 \usepackage{amsmath}
-\usepackage[backend=biber, citestyle = authoryear, bibstyle = authoryear, sorting=nty]{biblatex}
+\usepackage[backend=biber, citestyle = authoryear, bibstyle = apa, sorting=nty]{biblatex}
 \addbibresource{ref.bib}
 
+%%加入中文
 \usepackage{fontspec}
 \usepackage{xeCJK}
 
@@ -56,6 +71,7 @@
 \begin{document}
 
 
+\pagenumbering{Roman}
 
 \newpage
 \input{chapters/acknowledge}
@@ -76,6 +92,7 @@
 
 
 \newpage
+\pagenumbering{arabic}
 \fontsize{13pt}{18pt}\selectfont
 \section{Introduction}\label{ch:Introduction}
 \input{chapters/introduction}
@@ -95,7 +112,7 @@
 
 
 \fontsize{13pt}{18pt}\selectfont
-\section{Information Explanation}\label{ch:info}
+\section{Further Discussion}\label{ch:info}
 \input{chapters/information}
 
 
@@ -104,9 +121,17 @@
 \input{chapters/conclusion}
 
 
-
-
 \newpage
 \printbibliography
+
+
+\fontsize{13pt}{18pt}\selectfont
+\newpage
+\input{chapters/tables}
+
+
+
+
+
 
 \end{document}

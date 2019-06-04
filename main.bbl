@@ -43,16 +43,17 @@
       \list{publisher}{1}{%
         {JSTOR}%
       }
-      \strng{namehash}{30ffe817e7578d12649f7a4633f01c40}
+      \strng{namehash}{d89f22c29ffa40b080c482b259867046}
       \strng{fullhash}{30ffe817e7578d12649f7a4633f01c40}
       \strng{bibnamehash}{30ffe817e7578d12649f7a4633f01c40}
       \strng{authorbibnamehash}{30ffe817e7578d12649f7a4633f01c40}
-      \strng{authornamehash}{30ffe817e7578d12649f7a4633f01c40}
+      \strng{authornamehash}{d89f22c29ffa40b080c482b259867046}
       \strng{authorfullhash}{30ffe817e7578d12649f7a4633f01c40}
       \field{sortinit}{A}
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Business}
@@ -85,6 +86,7 @@
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Finance}
@@ -119,16 +121,17 @@
       \list{publisher}{1}{%
         {Taylor \& Francis}%
       }
-      \strng{namehash}{fa4a741b7865e56e0d5504755b1a031c}
+      \strng{namehash}{1dfeaa11dc4c53ba44b7d97c13841f79}
       \strng{fullhash}{fa4a741b7865e56e0d5504755b1a031c}
       \strng{bibnamehash}{fa4a741b7865e56e0d5504755b1a031c}
       \strng{authorbibnamehash}{fa4a741b7865e56e0d5504755b1a031c}
-      \strng{authornamehash}{fa4a741b7865e56e0d5504755b1a031c}
+      \strng{authornamehash}{1dfeaa11dc4c53ba44b7d97c13841f79}
       \strng{authorfullhash}{fa4a741b7865e56e0d5504755b1a031c}
       \field{sortinit}{A}
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Business \& Economic Statistics}
@@ -167,6 +170,7 @@
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The journal of finance}
@@ -205,6 +209,7 @@
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Management Science}
@@ -244,14 +249,15 @@
       }
       \strng{namehash}{89810811eba53ed2309d5b712f30b029}
       \strng{fullhash}{f06cf0b1bb611ca410a439091849194e}
-      \strng{bibnamehash}{89810811eba53ed2309d5b712f30b029}
-      \strng{authorbibnamehash}{89810811eba53ed2309d5b712f30b029}
+      \strng{bibnamehash}{f06cf0b1bb611ca410a439091849194e}
+      \strng{authorbibnamehash}{f06cf0b1bb611ca410a439091849194e}
       \strng{authornamehash}{89810811eba53ed2309d5b712f30b029}
       \strng{authorfullhash}{f06cf0b1bb611ca410a439091849194e}
       \field{sortinit}{B}
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Social Science Electronic Publishing. Available online: https://papers. ssrn. com/sol3/papers. cfm}
@@ -286,6 +292,7 @@
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of political economy}
@@ -320,16 +327,17 @@
       \list{publisher}{1}{%
         {Oxford University Press}%
       }
-      \strng{namehash}{b0b1969d4bc0374df570b7c493e8d75c}
+      \strng{namehash}{b250c826403737aaca16b70d855ba175}
       \strng{fullhash}{b0b1969d4bc0374df570b7c493e8d75c}
       \strng{bibnamehash}{b0b1969d4bc0374df570b7c493e8d75c}
       \strng{authorbibnamehash}{b0b1969d4bc0374df570b7c493e8d75c}
-      \strng{authornamehash}{b0b1969d4bc0374df570b7c493e8d75c}
+      \strng{authornamehash}{b250c826403737aaca16b70d855ba175}
       \strng{authorfullhash}{b0b1969d4bc0374df570b7c493e8d75c}
       \field{sortinit}{B}
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Review of Financial Studies}
@@ -364,16 +372,17 @@
       \list{publisher}{1}{%
         {Wiley Online Library}%
       }
-      \strng{namehash}{d26f6c42452d566c7b964346fc8f8454}
+      \strng{namehash}{bf389f8aefd7b0c50a98d9dfc82f04b7}
       \strng{fullhash}{d26f6c42452d566c7b964346fc8f8454}
       \strng{bibnamehash}{d26f6c42452d566c7b964346fc8f8454}
       \strng{authorbibnamehash}{d26f6c42452d566c7b964346fc8f8454}
-      \strng{authornamehash}{d26f6c42452d566c7b964346fc8f8454}
+      \strng{authornamehash}{bf389f8aefd7b0c50a98d9dfc82f04b7}
       \strng{authorfullhash}{d26f6c42452d566c7b964346fc8f8454}
       \field{sortinit}{C}
       \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Finance}
@@ -385,7 +394,7 @@
       \range{pages}{23}
     \endentry
     \entry{chan2002informational}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{uniquelist=3}{%
         {{uniquename=0,uniquepart=base,hash=07cf5039f5d4386c9375a9246908a352}{%
            family={Chan},
            familyi={C\bibinitperiod},
@@ -429,7 +438,7 @@
       \range{pages}{27}
     \endentry
     \entry{chan1993option}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{uniquelist=3}{%
         {{uniquename=0,uniquepart=base,hash=07cf5039f5d4386c9375a9246908a352}{%
            family={Chan},
            familyi={C\bibinitperiod},
@@ -480,12 +489,12 @@
            given={Chuang-Chang},
            giveni={C\bibinithyphendelim C\bibinitperiod},
            givenun=0}}%
-        {{uniquename=1,uniquepart=given,hash=e104c47be74feab27126d54ec9f6ce0a}{%
+        {{uniquename=0,uniquepart=base,hash=e104c47be74feab27126d54ec9f6ce0a}{%
            family={Lin},
            familyi={L\bibinitperiod},
            given={Zih-Ying},
            giveni={Z\bibinithyphendelim Y\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{uniquename=0,uniquepart=base,hash=9fb12c67763f358164d6fb8c904ad829}{%
            family={Wang},
            familyi={W\bibinitperiod},
@@ -493,16 +502,17 @@
            giveni={Y\bibinithyphendelim H\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{cfa1adf06b1f9b5d1096cf5bb9545dbb}
+      \strng{namehash}{3426666a5ace33e9980db5b94e4184c2}
       \strng{fullhash}{cfa1adf06b1f9b5d1096cf5bb9545dbb}
       \strng{bibnamehash}{cfa1adf06b1f9b5d1096cf5bb9545dbb}
       \strng{authorbibnamehash}{cfa1adf06b1f9b5d1096cf5bb9545dbb}
-      \strng{authornamehash}{cfa1adf06b1f9b5d1096cf5bb9545dbb}
+      \strng{authornamehash}{3426666a5ace33e9980db5b94e4184c2}
       \strng{authorfullhash}{cfa1adf06b1f9b5d1096cf5bb9545dbb}
       \field{sortinit}{C}
       \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Available at SSRN 3096877}
@@ -537,6 +547,7 @@
       \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Financial and Quantitative Analysis}
@@ -586,7 +597,7 @@
       \range{pages}{12}
     \endentry
     \entry{doran2007there}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{uniquelist=2}{%
         {{uniquename=0,uniquepart=base,hash=90885033065f7fb5bc6da5927fe85a24}{%
            family={Doran},
            familyi={D\bibinitperiod},
@@ -609,11 +620,11 @@
       \list{publisher}{1}{%
         {Wiley Online Library}%
       }
-      \strng{namehash}{2f9db48994a3e3e036daee85d9ca1d7a}
+      \strng{namehash}{56743a341fbde3e2e225b8fe21c8bcea}
       \strng{fullhash}{2f9db48994a3e3e036daee85d9ca1d7a}
       \strng{bibnamehash}{2f9db48994a3e3e036daee85d9ca1d7a}
       \strng{authorbibnamehash}{2f9db48994a3e3e036daee85d9ca1d7a}
-      \strng{authornamehash}{2f9db48994a3e3e036daee85d9ca1d7a}
+      \strng{authornamehash}{56743a341fbde3e2e225b8fe21c8bcea}
       \strng{authorfullhash}{2f9db48994a3e3e036daee85d9ca1d7a}
       \field{sortinit}{D}
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
@@ -637,12 +648,12 @@
            given={Joost},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{uniquename=1,uniquepart=given,hash=1175f93950fd98c6126b8b54f0d14bda}{%
+        {{uniquename=0,uniquepart=base,hash=1175f93950fd98c6126b8b54f0d14bda}{%
            family={Lin},
            familyi={L\bibinitperiod},
            given={Tse-Chun},
            giveni={T\bibinithyphendelim C\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{uniquename=0,uniquepart=base,hash=fe9f7eed3b9b0dc1277bc25d244162d0}{%
            family={Lu},
            familyi={L\bibinitperiod},
@@ -653,16 +664,17 @@
       \list{publisher}{1}{%
         {Citeseer}%
       }
-      \strng{namehash}{f9a0a89ff2f417062d92f94544c3993a}
+      \strng{namehash}{6d5aff43013b6ff31f887ff5f6a96a41}
       \strng{fullhash}{f9a0a89ff2f417062d92f94544c3993a}
       \strng{bibnamehash}{f9a0a89ff2f417062d92f94544c3993a}
       \strng{authorbibnamehash}{f9a0a89ff2f417062d92f94544c3993a}
-      \strng{authornamehash}{f9a0a89ff2f417062d92f94544c3993a}
+      \strng{authornamehash}{6d5aff43013b6ff31f887ff5f6a96a41}
       \strng{authorfullhash}{f9a0a89ff2f417062d92f94544c3993a}
       \field{sortinit}{D}
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{SSRN: https://ssrn. com/abstract}
@@ -694,16 +706,17 @@
       \list{publisher}{1}{%
         {Wiley Online Library}%
       }
-      \strng{namehash}{c31da85c880af7347fa0278ebc9d0ee9}
+      \strng{namehash}{f1ba83474ca11cc6ac84524538baa7e6}
       \strng{fullhash}{c31da85c880af7347fa0278ebc9d0ee9}
       \strng{bibnamehash}{c31da85c880af7347fa0278ebc9d0ee9}
       \strng{authorbibnamehash}{c31da85c880af7347fa0278ebc9d0ee9}
-      \strng{authornamehash}{c31da85c880af7347fa0278ebc9d0ee9}
+      \strng{authornamehash}{f1ba83474ca11cc6ac84524538baa7e6}
       \strng{authorfullhash}{c31da85c880af7347fa0278ebc9d0ee9}
       \field{sortinit}{E}
       \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Finance}
@@ -738,16 +751,17 @@
       \list{publisher}{1}{%
         {Wiley Online Library}%
       }
-      \strng{namehash}{f24d1b7bef3c7b43bfaeeae36f8bee6e}
+      \strng{namehash}{e415be5a1ba9e657c8125b213351d52a}
       \strng{fullhash}{f24d1b7bef3c7b43bfaeeae36f8bee6e}
       \strng{bibnamehash}{f24d1b7bef3c7b43bfaeeae36f8bee6e}
       \strng{authorbibnamehash}{f24d1b7bef3c7b43bfaeeae36f8bee6e}
-      \strng{authornamehash}{f24d1b7bef3c7b43bfaeeae36f8bee6e}
+      \strng{authornamehash}{e415be5a1ba9e657c8125b213351d52a}
       \strng{authorfullhash}{f24d1b7bef3c7b43bfaeeae36f8bee6e}
       \field{sortinit}{F}
       \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Futures Markets: Futures, Options, and Other Derivative Products}
@@ -780,6 +794,7 @@
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Financial and Quantitative analysis}
@@ -814,16 +829,17 @@
       \list{publisher}{1}{%
         {Institutional Investor Journals}%
       }
-      \strng{namehash}{0c964c2db1c633a30898cbf635ced089}
+      \strng{namehash}{e4b52402ba9d1ba98c6ce6825f009140}
       \strng{fullhash}{0c964c2db1c633a30898cbf635ced089}
       \strng{bibnamehash}{0c964c2db1c633a30898cbf635ced089}
       \strng{authorbibnamehash}{0c964c2db1c633a30898cbf635ced089}
-      \strng{authornamehash}{0c964c2db1c633a30898cbf635ced089}
+      \strng{authornamehash}{e4b52402ba9d1ba98c6ce6825f009140}
       \strng{authorfullhash}{0c964c2db1c633a30898cbf635ced089}
       \field{sortinit}{H}
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Derivatives}
@@ -858,16 +874,17 @@
       \list{publisher}{1}{%
         {Wiley Online Library}%
       }
-      \strng{namehash}{aec3003a1ed9ba5349e7507bcc9271bb}
+      \strng{namehash}{e210636215a6d6f06919c8e1aa2ebd90}
       \strng{fullhash}{aec3003a1ed9ba5349e7507bcc9271bb}
       \strng{bibnamehash}{aec3003a1ed9ba5349e7507bcc9271bb}
       \strng{authorbibnamehash}{aec3003a1ed9ba5349e7507bcc9271bb}
-      \strng{authornamehash}{aec3003a1ed9ba5349e7507bcc9271bb}
+      \strng{authornamehash}{e210636215a6d6f06919c8e1aa2ebd90}
       \strng{authorfullhash}{aec3003a1ed9ba5349e7507bcc9271bb}
       \field{sortinit}{K}
       \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Finance}
@@ -906,6 +923,7 @@
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Finance}
@@ -940,16 +958,17 @@
       \list{publisher}{1}{%
         {Wiley Online Library}%
       }
-      \strng{namehash}{bc835512de09405968aeb4bace412c18}
+      \strng{namehash}{f9ff2a71cf83d9ad817e6c723eb932fe}
       \strng{fullhash}{bc835512de09405968aeb4bace412c18}
       \strng{bibnamehash}{bc835512de09405968aeb4bace412c18}
       \strng{authorbibnamehash}{bc835512de09405968aeb4bace412c18}
-      \strng{authornamehash}{bc835512de09405968aeb4bace412c18}
+      \strng{authornamehash}{f9ff2a71cf83d9ad817e6c723eb932fe}
       \strng{authorfullhash}{bc835512de09405968aeb4bace412c18}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Finance}
@@ -988,6 +1007,7 @@
       \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{A simple, positive semi-definite, heteroskedasticity and autocorrelationconsistent covariance matrix}
@@ -1017,16 +1037,17 @@
       \list{publisher}{1}{%
         {Elsevier}%
       }
-      \strng{namehash}{8bf9b5e14d0c0fc8ee93dd74207d4af2}
+      \strng{namehash}{246033ea9f477938a8ff4c270844961d}
       \strng{fullhash}{8bf9b5e14d0c0fc8ee93dd74207d4af2}
       \strng{bibnamehash}{8bf9b5e14d0c0fc8ee93dd74207d4af2}
       \strng{authorbibnamehash}{8bf9b5e14d0c0fc8ee93dd74207d4af2}
-      \strng{authornamehash}{8bf9b5e14d0c0fc8ee93dd74207d4af2}
+      \strng{authornamehash}{246033ea9f477938a8ff4c270844961d}
       \strng{authorfullhash}{8bf9b5e14d0c0fc8ee93dd74207d4af2}
       \field{sortinit}{O}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Financial Economics}
@@ -1065,6 +1086,7 @@
       \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Review of Financial Studies}
@@ -1103,6 +1125,7 @@
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Finance}
@@ -1135,6 +1158,7 @@
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Finance}
@@ -1153,12 +1177,12 @@
            given={Yuhang},
            giveni={Y\bibinitperiod},
            givenun=0}}%
-        {{uniquename=1,uniquepart=given,hash=5b996621da6e0ca32bcc27f9c7ceaed4}{%
+        {{uniquename=0,uniquepart=base,hash=5b996621da6e0ca32bcc27f9c7ceaed4}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
            given={Xiaoyan},
            giveni={X\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{uniquename=0,uniquepart=base,hash=5db4068796cde560b4fd3829096ef6c5}{%
            family={Zhao},
            familyi={Z\bibinitperiod},
@@ -1169,16 +1193,17 @@
       \list{publisher}{1}{%
         {Cambridge University Press}%
       }
-      \strng{namehash}{f75c7351c51dbf8ef3b7537fc3e1f543}
+      \strng{namehash}{f3939b3edde3c5753655334f52f4cc29}
       \strng{fullhash}{f75c7351c51dbf8ef3b7537fc3e1f543}
       \strng{bibnamehash}{f75c7351c51dbf8ef3b7537fc3e1f543}
       \strng{authorbibnamehash}{f75c7351c51dbf8ef3b7537fc3e1f543}
-      \strng{authornamehash}{f75c7351c51dbf8ef3b7537fc3e1f543}
+      \strng{authornamehash}{f3939b3edde3c5753655334f52f4cc29}
       \strng{authorfullhash}{f75c7351c51dbf8ef3b7537fc3e1f543}
       \field{sortinit}{X}
       \field{sortinithash}{b0b62a29ee4a21a0e618fed53a0313cc}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Financial and Quantitative Analysis}
@@ -1191,12 +1216,12 @@
     \endentry
     \entry{zhang2008implied}{article}{}
       \name{author}{2}{}{%
-        {{uniquename=1,uniquepart=given,hash=90665a18fe00ad2d2c8586bd62760e4b}{%
+        {{uniquename=0,uniquepart=base,hash=90665a18fe00ad2d2c8586bd62760e4b}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
            given={Jin\bibnamedelima E},
            giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{uniquename=0,uniquepart=base,hash=afccc7c96f1ab9dace48c943d291cfbb}{%
            family={Xiang},
            familyi={X\bibinitperiod},
@@ -1217,6 +1242,7 @@
       \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Quantitative Finance}
